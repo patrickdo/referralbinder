@@ -1,0 +1,63 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+table {
+	border: 1px solid #CCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border-collapse: collapse;
+	background-color: #e8eaf6;
+	width: 980px;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+th {
+	/*background-color: #3f51b5;*/
+	background-color: #2C8CEB;
+	color: #FFF;
+	font-weight: bold;
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+tbody tr:nth-child(odd) {
+	/*background: #dcdcdc;*/
+	background: #e8eaf6;
+}
+
+tbody tr:hover {
+	/*background: #acacac;*/
+	background: #d0d9ff;
+}
+
+.numberCol {
+	width:10%;
+}
+
+.descriptionCol {
+	width:20%;
+}
+
+.indicationsCol {
+	width:30%;
+}
+
+.protocolCol {
+	width:40%;
+}
+
+.search {
+	background: #ffffff url('https://cdn3.iconfinder.com/data/icons/iconic-1/32/magnifying_glass-128.png') no-repeat 16px/16px;
+	background-position: 3px 3px;
+	padding-left: 22px !important;
+	height:20px;
+	line-height: 20px;
+	font-size:16px;
+}
