@@ -5,7 +5,7 @@ request.send();
 request.onreadystatechange = function() {
 	if (request.readyState === 4) {	// have to wait for AJAX call to complete
 		CSVData = CSVtoArray(request.responseText);
-		CSVData.splice(0,1);
+		CSVData.splice(0,2);
 
 		// console.log("start adding " + CSVData.length + " indications")
 		// console.time("addProtocols()");
