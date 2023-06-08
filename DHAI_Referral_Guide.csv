@@ -1,0 +1,236 @@
+sep=;
+Body Part;Reason for Exam;Procedure (Order As);CPT Code
+MR Angio Abdomen (Arterial), (MRV Venous); "AAA (abdominal aortic aneurysm), Abdominal Aortic Dissection Pre Kidney Transplant, Pre-op Uncontrolled Blood Pressure, Malignant renovascular HTN, Renal artery aneurysm or dissection, Fibromuscular dysplasia, Mesenteric ischemia, Venous thrombosis, AVM (arteriovenous malformation);MR Angio Abdomen wo+w Con;74185
+MR Angio Pelvis;"AVM (arteriovenous malformation), May Thurner Syndome, Pelvic Congestion";MR Angio Pelvis wo+w Con;72198
+MR Angio Pelvis;Pelvic Congestion; MR Angio Pelvis wo+w Con;72198
+MR Angio Peripheral Run-Off (IF CT unavailable or contraindicated);Peripheral vascular disease Claudication;"Order 4 Exams: MR Angio Abdomen wo+w Con, MR Angio Pelvis wo+w Con, MR Angio Lower Extrem wo+w Con Lt AND MR Angio Lower Extrem wo+w Con Rt";"Order 4 Exams: 74185, 72198, 73725, 73725"
+MR Angio Brain (Arterial);"Stroke, transient ischemic attack (TIA), Sudden or transient visual loss, Cerebral aneurysm, Headache and family history of aneurysm, Vascular malformation";MR Angio Head wo Con;70544
+MR Angio Brain (MRV Venous);Venous sinus thrombosis;MR Angio Head wo Con;70544
+MR Angio Chest;"Thoracic outlet syndrome, Paget-Schroetter disease, subclavian stenosis";MR Angio Chest wo+w Con;71555
+MR Angio Neck;"Stroke, TIA, Peripheral vascular disease, carotid stenosis, Sudden or transient visual loss, Subclavian steal syndrome, ";MR Angio Neck wo+w Con;70549
+MRCP;"MRCP (Biliary/Pancreatic Ducts), Choledocholithiasis / biliary tract stone, Biliary dilation or obstruction, Congenital biliary abnormality, choledochal cyst, Sclerosing cholangitis, primary biliary cirrhosis, painless jaundice, pre-liver transplant";MR Abdomen wo Con;74181
+MR Abdomen;"Adrenal mass, Renal mass, Liver mass, cirrhosis, hemochromatosis, Pancreatic mass, Painless jaundice, Indeterminate mass on CT or ultrasound, Presurgical evaluation, Post-embolization or ablation follow up";MR Abdomen wo+w Con;74183
+MR Pelvis;"Fracture, Muscle / Tendon Tear, Sports Hernia, Defecography";MR Pelvis wo Con;72195
+MR Pelvis;"Uterine fibroids or adenomyosis, Staging or follow up of uterine, endometrial or cervical cancer, Ovarian / adnexal mass or cyst, Vaginal cyst or mass, Abnormal or indeterminate CT or ultrasound findings, Mullerian duct anomaly, Urethral diverticulum, Bladder mass, Prostate cancer with clinically suspected extracapsular or invasive disease, Rectal / anal cancer staging or follow up, Perirectal / perianal fistula or abscess, Osteomyelitis, Septic Arthritis, Tumor/Mass/Cancer/Mets, Abcess, Ulcer, Urethral Diverticulum";MR Pelvis wo+w Con;72197
+MR Abdomen / Pelvis (MR Enterography);"Crohns Disease/Inflammatory, Bowel Disease, Celiac Disease, Anemia with suspected small bowel mass,  bowel tumor, stricture, fistula, capsule enterography";Order MR Enterography or Order 2 Exams: MR Abdomen wo+w Con AND MR Pelvis wo+w Con;"Order 2 Exams: 74183, 72197"
+"MR NON-JOINT UPPER (NON CON): Arm, Hand, Finger";"Fracture, Stress Fracture, Muscle / Tendon Tear";"Order specific body part: MR Hand wo con Lt, MR Hand wo Con Rt, MR Forearm wo Con Lt, MR Forearm wo Con Rt, MR Humerus wo Con Lt, MR Humerus wo Con Rt, MR Finger Digit wo Con Lt, MR Finger Digit wo Con Rt";73718
+"MR NON-JOINT UPPER (WO+W CON): Arm, Hand, Finger";"Abscess, Ulcer, Bone Tumor, Mass, Cancer, Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma Osteomyelitis, Soft Tissue Tumor, Mass, Cancer,Mets";"Order specific body part: MR Hand wo+w con Lt, MR Hand wo+w Con Rt, MR Forearm wo+w Con Lt, MR Forearm wo+w Con Rt, MR Humerus wo+w Con Lt, MR Humerus wo+w Con Rt, MR Finger Digit wo+w Con Lt, MR Finger Digit wo+w Con Rt";73220
+"MR NON-JOINT LOWER: Leg, Foot, Toe";"Fracture, Stress Fracture, Muscle Tendon Tear";"Order specific body part: MR Femur/Thigh wo Con Lt, MR Femur/Thigh wo Con Rt, MR Tib/Fib wo con Lt, MR Tib/Fib wo con Rt, MR Foot wo Con Lt, MR Foot wo Con Rt";73718
+"MR NON-JOINT LOWER (WO+W CON): Leg, Foot, Toe";"Abscess, Ulcer, Bone Tumor, Mass, Cancer, Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma Osteomyelitis, Soft Tissue, Tumor, Mass, Cancer, Mets";"Order specific body part: MR Femur/Thigh wo Con Lt, MR Femur/Thigh wo+w Con Rt, MR Tib/Fib wo+w con Lt, MR Tib/Fib wo+w con Rt, MR Foot wo+w Con Lt, MR Foot wo+w Con Rt";73720
+"MR NON-JOINT UPPER: Arm, Hand, Finger";"Abscess, Ulcer, Bone Tumor/Mass/Cancer/Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma Osteomyelitis, Soft Tissue, Tumor/Mass/Cancer/Mets";"Order specific body part: MR Hand wo con Lt, MR Hand wo Con Rt, MR Forearm wo Con Lt, MR Forearm wo Con Rt, MR Humerus wo Con Lt, MR Humerus wo Con Rt, MR Finger Digit wo Con Lt, MR Finger Digit wo Con Rt";73718
+"MR NON-JOINT LOWER: Leg, Foot, Toe";"Abscess, Ulcer, Bone Tumor/Mass/Cancer/Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma Osteomyelitis, Soft Tissue, Tumor/Mass/Cancer/Mets";"Order specific body part: MR Femur/Thigh wo Con Lt, MR Femur/Thigh wo Con Rt, MR Tib/Fib wo con Lt, MR Tib/Fib wo con Rt, MR Foot wo Con Lt, MR Foot wo Con Rt";73718
+"MR JOINT UPPER: Shoulder, Elbow, Wrist";"Arthritis, Avascular Necrosis (AVN), Fracture, Stress Fracture, Internal Derangement, Joint Pain (specify joint), Muscle Tear, Tendon Tear, Ligament Tear, Cartilage Tear, Osteochondritis Dessicans (OCD)";"Order specific body part: MR Scapula wo Con Lt, MR Scapula wo Con Rt, MR Shoulder wo Con Lt, MR Shoulder wo Con Rt, MR Elbow wo Con Lt, MR Elbow wo Con Rt, MR Wrist wo Con Lt, MR Wrist wo Con Rt";73221
+"MR JOINT LOWER: Hip, Knee, Ankle";"Arthritis, Avascular Necrosis (AVN), Fracture, Stress Fracture, Internal Derangement, Joint Pain (specify joint), Labral Tear, Muscle Tear, Tendon Tear, Ligament Tear, Cartilage Tear, Osteochondritis Dessicans (OCD)";"Order specific body part: MR Hip wo Con Lt, MR Hip wo Con Rt, MR Knee wo Con Lt, MR Knee wo Con Rt, MR Ankle wo Con Lt, MR Ankle wo Con Rt";73721
+"MR JOINT UPPER: Shoulder, Elbow, Wrist";"Abscess, Ulcer, Cellulitis, Fasciitis, Myositis, Inflammatory Arthritis, Osteomyelitis, Septic Arthritis, Tumor / Mass / Cancer / Mets";"Order specific body part: MR Scapula wo+w Con Lt, MR Scapula wo+w Con Rt, MR Shoulder wo+w Con Lt, MR Shoulder wo+w Con Rt, MR Elbow wo+w Con Lt, MR Elbow wo+w Con Rt, MR Wrist wo+w Con Lt, MR Wrist wo+w Con Rt";73223
+"MR JOINT LOWER: Hip, Knee, Ankle";"Abscess, Ulcer, Cellulitis, Fasciitis, Myositis, Inflammatory Arthritis, Osteomyelitis, Septic Arthritis, Tumor / Mass / Cancer / Mets";"Order specific body part: MR Hip wo+w Con Lt, MR Hip wo+w Con Rt, MR Knee wo+w Con Lt, MR Knee wo+w Con Rt, MR Ankle wo+w Con Lt , MR Ankle wo+w Con Rt";73723
+"MR ARTHROGRAPHY - Joints: Shoulder, Elbow, Wrist, Knee, and/or Hip";"Postoperative rotator cuff or labral evaluation of shoulder, Inconclusive Conventional MRI for loose bodies in elbow, Inconclusive conventional MRI for TFCC tear of wrist, Inconclusive Meniscus Evaluation, Postoperative Hip or Inconclusive conventional MRI Hip done previously";"Order specific body part: MR Shoulder w Con Lt, MR Shoulder w Con Rt, MR Elbow w Con Lt, MR Elbow w Con Rt, MR Wrist w Con Lt, MR Wrist w Con Rt, MR Hip w Con Lt, MR Hip w Con Rt, MR Knee w Con Lt, MR Knee w Con Rt. Must order injection procedure code and fluoroscopy study as well. XR Guide NDL Fluor Plc Asp/Inj Joint (Exams are intra articular contrast injections)";"MR Lower 73722, MR Upper 73222, Fluoro - 77002, Inj - 23350"
+MR Brain;"Alzheimer's, Dementia, Memory Loss Mental Status Changes, Confusion Headache Without Focal Symptoms Seizures (children) Stroke, CVA, TIA, Trauma";MR Brain wo Con;70551
+MR Brain;"Cranial Nerve Lesions, Dizziness, Vertigo, Headache With Focal Symptoms, HIV, IAC/Hearing Loss, Infection, Multiple Sclerosis, Neurofibromatosis (other phakomatoses), Pituitary Lesion, Elevated Prolactin Seizures (adult new onset) Tumor, Mass, Cancer, Mets, Vascular Lesions, Vision Changes, Trigeminal Neuralgia";MR Brain wo+w Con;70553
+MR Neck;"Infection, Pain, Tumor, Mass, Cancer, Mets, Vocal Cord Paralysis, Parotid Gland";MR Orb/Face/Neck wo+w Con;70543
+MR Orbits;Grave's Disease Trauma;MR Orb/Face/Neck wo Con;70540
+MR Orbits / Face / Neck;"Exophthalmos, Proptosis, Pseudotumor, Tumor, Mass, Cancer, Mets, Vascular Lesions, Optic Neuritis";MR Orb/Face/Neck wo+w Con;70543
+MR Brachial Plexus;"Brachial Plexus Injury, Nerve Avulsion, Tumor, Mass, Cancer, Mets,";MR Brachial Plexus wo+w con;71552
+MR Chest / Mediastinum;"Tumor, Mass, Cancer, Mets";MR Chest wo+w Con;71552
+MR Chest / Clavicle;"Trauma, Fracture, Pain";"MR Clavicle wo Con Lt, MR Clavicle wo Con Rt";71550
+MR Breast;"Abnormal Mammogram, Abnormal Ultrasound, Dense Breast High Risk, Mass, Lesion, Cancer, Palpable Mass, Implant rupture";MR Breast wo+w Con Bil - MRS;77049
+MR Breast Biopsy;"Mass, Lesion, Cancer, Mastopathy, Fibrocystic breast disease";"MR Bx Breast 1st Lesion Lt - MRS, MR Bx Breast 1st Lesion Rt - MRS";19085
+MR Cervical;"Arm and/or Shoulder Pain and/or Weakness, Degenerative Disease, Neck Pain, Disc Herniation, Radiculopathy";MR C Spine wo Con;72141
+MR Cervical;"Discitis, Osteomyelitis, Multiple Sclerosis, Myelopathy, Syrinx, Tumor/Mass/Cancer/Mets/AVM";MR C Spine wo+w Con;72156
+MR Thoracic;"Back Pain, Compression Fx (no hx malig mets) Degenerative Disease, Disc Herniation, Radiculopathy, Trauma, Vertebroplasty Planning (no cancer)";MR T Spine wo Con;72146
+MR Thoracic;"Compression Fx (hx:cancer mets), Discitis, Osteomyelitis, Multiple Sclerosis, Myelopathy, Syrinx, Tumor,Mass, Cancer, Mets, Vascular Lesions, AVM, Vertebroplasty Planning (with hx malig)";MR T Spine wo+w Con;72157
+MR Lumbar;"Back Pain, Compression Fx (no hx:malig mets), Degenerative Disease, Disc Herniation, Radiculopathy, Sciatica, Spondylolisthesis, Stenosis, Trauma, Vertebroplasty Planning (with no hx malig)";MR L Spine wo Con;72148
+MR Lumbar;"Compression Fx (hx: malig mets), Discitis, Osteomyelitis, Post-op (surgery within 5 years), Tumor, Mass, Cancer, Mets, Vertebroplasty (with hx malig)";MR L Spine wo+w Con;72158
+CT Head;"Trauma, Headache, Stroke Bleed, Alzheimer's, Memory loss confusion, Vertigo, dizziness, Shunt check, Hydrocephalus";CT Head wo Con;70450
+CT Head;"Metastatic Staging, Mass, Tumor Infection, HIV, Headache and Neurologic Sign";CT Head wo+w Con;70470
+CT Angio Head;"Stroke, Suspected aneurysm with headache, Aneurysm follow-up, Vascular malformation, Vasculitis or vasculopathy, Dural venous sinus thrombosis";CT Angio Head wo+w Con;70496
+CT Orbits / Head;"Trauma, Fracture, Foreign Body, Graves Disease";CT Orbit/Sella/Posterior Fossa wo Con;70480
+CT Orbits / Head;"Pseudotumor Mass, Exophthalmos Pain, Abscess";CT Orbit/Sella/Posterior Fossa w Con;70481
+CT Face / Head;"Trauma, Fracture ";CT Maxillofacial wo Con;70486
+CT Face / Head;"Infection, Mass";CT Maxillofacial w Con;70487
+CT Sinus / Head;"Sinusitis, Sinonasal polyposis, Pre or post-surgical evaluation";CT Sinus wo Con;70486
+CT Temporal / Head;"Hearing loss, Cholesteatoma, Congenital inner ear anomaly, Pre-op cochlear implant, Trauma";CT Orbit/Sella/Posterior Fossa wo Con;70480
+CT Neck;"Mass, Cancer staging or follow up, Infection, Salivary tract inflammation, Dysphagia, Hoarseness, Vocal cord dysfunction, Upper airway obstruction";CT Soft Tissue Neck w Con;70491
+CT Angio Neck;"Carotid or vertebral artery stenosis, dissection, aneurysm, Vasculopathy, Vascular malformation, Pre or post-surgical carotid endarterectomy, Equivocal findings on carotid U/S or MRA";CT Angio Neck w Con;70498
+CT Neck;"Submandibular Stone, Parotid Stone with associated infection/inflammation, parathyroid adenoma";CT Soft Tissue Neck wo+w Con;70492
+CT Neck;"Submandibular Stone, Parotid Stone with associated infection/inflammation  ";CT Soft Tissue Neck wo Con;70490
+Neck;Parotid Stone with associated infection/inflammation;CT Soft Tissue Neck Without and With Contrast;70492
+CT Spine;Trauma;CT C Spine wo Con;72125
+CT Spine;"Inflammatory arthritis, discitis/osteomyelitis, epidural abscess, mass";CT C Spine w Con;72126
+CT Spine;"Trauma, Fracture, Back pain, Spinal stenosis, Tumor, Post-surgical evaluation";CT T Spine wo Con;72128
+CT Spine;"Inflammatory arthritis, discitis/osteomyelitis, epidural abscess, mass";CT T Spine w Con;72129
+CT Spine;"Trauma, Fracture, Spondylolysis, spondylolisthesis, Low back pain, Spinal stenosis, lumbar radiculopathy, Tumor, Post-surgical evaluation";CT L Spine wo Con;72131
+CT Spine;"Inflammatory arthritis, discitis, osteomyelitis, epidural abscess, mass";CT L Spine w Con;72132
+CT Chest;"Lung nodule with symptoms or known cancer, Nonspecific chest pain or dyspnea, Cancer (if cannot have IV contrast), Pleural effusion (transudative), Thoracic aortic aneurysm";CT Chest wo Con;71250
+CT Chest;"Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural effusion (exudative), Chest wall mass";CT Chest w Con;71260
+CT Chest;"Interstitial lung disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow up";CT Chest wo Con (High Res);71250
+CT Chest - Lung;50-77 years old and ≥ 20 pack year smoker and Quit smoking < 15 yrs ago Asymptomatic only;CT Lung Screening;71271
+CT Chest;Pulmonary nodule follow-up;CT Chest Low Dose;"71271,G0297"
+CT Abdomen;Renal insufficiency patients.;CT Abdomen wo IV Con;74150
+CT Abdomen;"Infection, Mass, Pseudocyst, pancreatitis, Follow up renal cancer, s/p nephrectomy";CT Abdomen w IV Con;74160
+CT Abdomen and Pelvis;"Abnormal ultrasound or MRI findings, Liver mass, cirrhosis, hepatitis, post tumor ablation or embolization, Renal mass, post tumor ablation or embolization, Pancreatic mass, Adrenal mass";"CT Abdomen wo+w IV Con (Multiphase liver, CT renal mass protocol, Pancreas protocol, Adrenal Protocol) Additional pelvic imaging can be performed upon request";74170, 74178
+CT Abdomen and Pelvis;"Renal, urinary tract stones or obstruction, Renal colic, Flank pain, Retroperitoneal hematoma, Renal Insufficiency patients";CT Abdomen+Pelvis wo IV Con;74176
+CT Abdomen and Pelvis;"Mass, adenopathy, Cancer staging, Abdominal pain (upper & lower quadrants), Jaundice, Infection, Abscess, Diverticulitis, Appendicitis, Colitis, Crohns, Ulcerative colitis, IBD, Bowel obstruction, Abdominal wall hernia ";CT Abdomen+Pelvis w IV Con;74177
+CT Pelvis;"Fracture Non-Union, CT Cystogram";CT Pelvis wo IV Con;72192
+CT Pelvis;"Arthritis, Cancer Staging Mass, Cysts Pain Infection, Abscess, CT Cystogram";CT Pelvis w IV Con;72193
+CT Abdomen and Pelvis;"Hematuria Staging or restaging, transitional cell carcinoma, Post-surgical evaluation, UPJ obstruction";CT Urogram;74178
+CT Abdomen and Pelvis;"Crohns Disease, Inflammatory Bowel Disease, Small bowel mass, Anemia of indeterminate etiology";CT Enterography;74177
+CT Upper Extremities;"Fracture Fusion Non-Union, Malunion";"Order specific body part: CT Hand wo Con Lt, CT Hand wo Con Rt, CT Wrist wo Con Lt, CT Wrist wo Con Rt, CT Forearm wo Con Lt, CT Forearm wo Con Rt, CT Elbow wo Con Lt, CT Elbow wo Con Rt, CT Humerus wo Con Lt, CT Humerus wo Con Rt, CT Shoulder wo Con Lt, CT Shoulder wo Con Rt";73200
+CT Upper Extremities;"Infection, Tumor, Mass, Cancer, Mets ";"Order specific body part: CT Hand w Con Lt, CT Hand w Con Rt, CT Wrist w Con Lt, CT Wrist w Con Rt, CT Forearm w Con Lt, CT Forearm w Con Rt, CT Elbow w Con Lt, CT Elbow w Con Rt, CT Humerus w Con Lt, CT Humerus w Con Rt, CT Shoulder w Con Lt, CT Shoulder w Con Rt";73201
+CT sternoclavicular joints;"Fracture Non Union, Malunion";CT Chest wo Con;71250
+CT Lower Extremities;"Fracture Fusion Non Union, Malunion, Arthritis";"Order specific body part:  CT Foot wo Con Lt, CT Foot wo Con Rt, CT Ankle wo Con Lt, CT Ankle wo Con Rt, CT Tib-Fib wo Con Lt, CT Tib-Fib wo Con Rt, CT Knee wo Con Lt, CT Knee wo Con Rt, CT Femur wo Con Lt, CT Femur wo Con Rt";73700
+CT Lower Extremities;"Infection, Tumor, Mass, Cancer, Mets";"Order specific body part:  CT Foot w Con Lt, CT Foot w Con Rt, CT Ankle w Con Lt, CT Ankle w Con Rt, CT Tib-Fib w Con Lt, CT Tib-Fib w Con Rt, CT Knee w Con Lt, CT Knee w Con Rt, CT Femur w Con Lt, CT Femur w Con Rt";73701
+CT Angio;"Chest pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary hypertension, Pulmonary embolism (PE)";CT Angio Chest PE Study;71275
+CT Angio;"Known or suspected aortic dissection, aneurysm, Post-surgical/endovascular  evaluation, Suspected aneurysm leak, Trauma, Vasculitis Coarctation, stenosis ";Order 2 Exams: Aortic dissection (thoracic aorta) protocol - CTA chest without and with contrast Aortic dissection (thoracic aorta) protocol - CTA abdomen without and with contrast;"71275 and 74175"
+CT Coronary;Evaluate for presence of calcium in coronary artery;CT Cardiac Calcium Scoring wo Con;75571
+CT Angio Chest;"Known thoracic aortic dissection, aneurysm, Suspected aneurysm leak, Trauma, Stenosis Vasculitis";CT Angio Chest   ;71275
+CT Angio Abdomen and Pelvis (abdominal aorta);"Abdominal aortic aneurysm, Pre-surgical/endovascular  evaluation, Renal artery stenosis, Mesenteric artery stenosis, thrombosis, dissection, Vasculitis/vasculopathy, GI Bleed, DIEP Flap pre surgical";CTA abdomen and pelvis (abdominal aorta) without and with contrast;74174
+CT Angio Abdomen, Pelvis, Extremities;"Peripheral Artery Disease, Lower extremity claudication, Abnormal ABI";CT Angio Aorta with Runoff;75635
+CT Angio Upper Extremity;"Trauma, pseudoaneurysm, Vascular malformation";"CT Angio Upper Extrem w Con Lt, CT Angio Upper Extrem w Con Rt";73206
+CT Heart;"Evaluation of the coronary arteries, coronary artery disease, cardiomyopathy, abnormal ECG, troponemia";CT Angio Heart/Coronary Art 3D W Cont;75574
+Eye;For detection of foreign body;"XR Eye Foreign Body Bil, XR Eye Foreign Body Lt, or XR Eye Foreign Body Rt";70030
+Mandible;"Partial, less than 4 views";XR Mandible 1-3 Views;70100
+Mandible;"Complete, 4 views or more";XR Mandible 4+ Views;70110
+Facial Bones;Less than 3 views;XR Facial Bones 1-2 Views;70140
+Facial Bones;"Complete, 3 views or more";XR Facial Bones 3+ Views;70150
+Nasal Bones;3 views or more;XR Nasal Bones 3+ Views;70160
+Orbits;"Complete, 4 views or more";XR Orbits 4+ Views;70200"
+Optic Foramina Sinuses";"Bilateral, Less than 3 views";XR Optic Foramina;"70190, 70210"
+Sinuses;"Complete, 3 views or more";XR Sinuses 3+ Views;70220
+Sella Turcica;;XR Sella Turcica;70240
+Skull;Less than 4 views;XR Skull 1-3 Views;70250
+"Skull";"Complete, 4 views or more";XR Skull 4+ Views;70260
+Temporomandibular Joint;Unilateral;XR TMJ Lt or XR TMJ Rt;70328
+Temporomandibular Joint;Bilateral;XR TMJ Bil;70330
+Neck;Soft Tissue;XR Neck Soft Tissue;70360
+Salivary Gland;Check for calculus;XR Salivary Gland;70380
+Chest;Single View;XR Chest 1 View AP or PA;71045
+Chest;"Two View, PA and Lateral";XR Chest 2 Views;71046
+Chest;Two View plus Apical Lordotic;XR Chest 2 Views w Apical Lordotic;71047
+Chest;Two view plus oblique projections;XR Chest 2 Views w Obliques;71048
+Ribs;"Unilateral, 2 views";XR Ribs 2 Views Lt or XR Ribs 2 Views Rt;71100
+Ribs;"Unilateral, 2 views including PA Chest";"XR Ribs w PA Chest 3+ Views Lt, XR Ribs w PA Chest 3+ Views Rt";71101
+Ribs;"Bilateral, 3 views";XR Ribs 3 Views Bil;71110
+Ribs;"Bilateral, including PA Chest, minimum of 4 views";XR Ribs w PA Chest 4+ Views Bil;71111
+Sternum;Minimum 2 views;XR Sternum 2+ Views;71120
+Sternoclavicular Joint(s);"Unilateral or bilateral, minimum 3 views";XR Sternoclavicular Jnts 3+ Views;71130
+Cervical Spine;2-3 views;XR C Spine 2-3 Views;72040
+Cervical Spine;4-5 views;XR C Spine 4-5 Views;72050
+Cervical Spine;6 views or more;XR C Spine 6 or more Views;72052
+Thoracic Spine;2 views;XR T Spine 2 Views;72070
+Thoracic Spine;3 views;XR T Spine 3 Views;72072
+Thoracic Spine;4 views or more;XR T Spine 4+ Views;72074
+Scoliosis Study;"Entire thoracic, lumbar, cervical and sacral spine) 1 view";XR Scoliosis Spine 1 View;72081
+Scoliosis Study;"Entire thoracic, lumbar, cervical and sacral spine) 2 view";XR Spine Entire 2-3 Views;72082
+Scoliosis Study;"Entire thoracic, lumbar, cervical and sacral spine) 4 or 5 views";XR Spine Entire 4-5 views;72083
+Scoliosis Study;"Entire thoracic, lumbar, cervical and sacral spine) Minimum 6 views";XR Spine Entire 6 + Views;72084
+"Lumbosacral Spine";2-3 views;XR L Spine 2-3 Views;72100
+Lumbosacral Spine;4 views minimum;XR L Spine 4-5 Views;72110
+Lumbosacral Spine;"Complete, including bending and 6 views or more";XR L Spine 6+ Views w Bending;72114
+Lumbosacral Spine;"Bending views only, 2-3 views";XR L Spine Bending Only 2-3 Views;72120
+"Sacroiliac Joints";"3 views or more";XR SI Jnts 3+ Views;72200
+Sacrum and Coccyx;2 views or more;XR Sacrum+Coccyx 2+ Views;72220
+Clavicle;Complete;"XR Clavicle Complete Bil, XR Clavicle Complete Lt, XR Clavicle Complete Rt";73000
+Scapula;Complete;"XR Scapula Complete Bil, XR Scapula Complete Lt, XR Scapula Complete Rt";73010
+Shoulder;Minimum 2 views;"XR Shoulder 2+ Views Bil, XR Shoulder 2+ Views Lt , XR Shoulder 2+ Views Rt";73030
+Acromioclavicular Joints;Bilateral;XR AC Jnts Wo or W Weights;73050
+Humerus;Minimum 2 views;"XR Humerus 2+ Views Bil, XR Humerus 2+ Views Lt, XR Humerus 2+ Views Rt";73060
+Elbow;2 views;"XR Elbow 2 Views Bil, XR Elbow 2 Views Lt, XR Elbow 2 Views Rt";73070
+Elbow;"Complete, 3 views or more";"XR Elbow 3+ Views Bil, XR Elbow 3+ Views Lt, XR Elbow 3+ Views Rt";73080
+Forearm;2 views;"XR Forearm 2 Views Bil, XR Forearm 2 Views Lt, XR Forearm 2 Views Rt";73090
+Upper Extremity;"Infant, minimum 2 views";"XR Upper Extrem Infant 2+ Views Lt, XR Upper Extrem Infant 2+ Views Rt";73092
+Wrist;2 views;"XR Wrist 2 Views Bil, XR Wrist 2 Views Lt, XR Wrist 2 Views Rt";73100
+Wrist;3 views or more;"XR Wrist 3+ Views Bil, XR Wrist 3+ Views Lt, XR Wrist 3+ Views Rt";73110
+Hand;2 views;"XR Hand 2 Views Bil, XR Hand 2 Views Lt, XR Hand 2 Views Rt";73120
+Hand;3 views or more;"XR Hand 3+ Views Bil, XR Hand 3+ Views Lt, XR Hand 3+ Views Rt";73130
+Finger(s);Minimum 2 views;"XR Finger 2+ Views Lt, XR Finger 2+ Views Rt";73140
+"Hip- unilateral with pelvis when performed";1 view;"XR Hip w Pelvis 1 View Lt, XR Hip w Pelvis 1 View Rt";73501
+"Hip- unilateral with pelvis when performed";2-3 views;"XR Hip w Pelvis 2-3 Views Lt, XR Hip w Pelvis 2-3 Views Rt";73502
+"Hip- unilateral with pelvis when performed";4 views;"XR Hip w Pelvis 4+ Views Lt, XR Hip w Pelvis 4+ Views Rt";73503
+"Hips- bilateral with pelvis when performed";2 views;XR Hip w Pelvis 2 Views Bilat;73521
+"Hips- bilateral with pelvis when performed";3-4 views;XR Hip w Pelvis 3-4 Views Bil;73522
+"Hips- bilateral with pelvis when performed";5 views;XR Hip w Pelvis 5+ Views Bilat;73523
+Pelvis;1-2 views;XR Pelvis 1-2 Views;72170
+Femur;1 view;"XR Femur 1 View Lt, XR Femur 1 View Rt";73551
+Femur;2 views;"XR Femur 2+ Views Bil, XR Femur 2+ Views Lt, XR Femur 2+ Views Rt";73552
+Knee;1-2 views;"XR Knee 1-2 Views Bil, XR Knee 1-2 Views Lt, XR Knee 1-2 Views Rt";73560
+Knee;3 views;"XR Knee 3 Views Bil, XR Knee 3 Views Lt, XR Knee 3 Views Rt";73562
+Knee;"Complete, 4 views or more";"XR Knee 4+ Views Bil, XR Knee 4+ Views Lt, XR Knee 4+ Views Rt";73564
+Knees;"AP standing, bilateral";XR Knees Standing AP Bil;73565
+Tibia and Fibula;2 views;"XR Tibia+Fibula 2 Views Bil, XR Tibia+Fibula 2 Views Lt, XR Tibia+Fibula 2 Views Rt";73590
+Lower Extremity;"Infant, minimum 2 views";"XR Lower Extrem Infant 2+ Views Bil, XR Lower Extrem Infant 2+ Views Lt, XR Lower Extrem Infant 2+ Views Rt";73592
+Ankle;2 views;"XR Ankle 2 Views Bil, XR Ankle 2 Views Lt, XR Ankle 2 Views Rt";73600
+Ankle;"Complete, 3 views or more";"XR Ankle 3+ Views Bil, XR Ankle 3+ Views Lt, XR Ankle 3+ Views Rt";73610
+Foot;2 views;"XR Foot 2 Views Bil, XR Foot 2 Views Lt, XR Foot 2 Views Rt";73620
+Foot;"Complete, 3 views or more";"XR Foot 3+ Views Bil, XR Foot 3+ Views Lt, XR Foot 3+ Views Rt";73630
+Calcaneus;Minimum 2 views;"XR Calcaneus 2+ Views Bil, XR Calcaneus 2+ Views Lt, XR Calcaneus 2+ Views Rt";73650
+Toe(s);Minimum 2 views;"XR Toe 2+ Views Bil, XR Toe 2+ Views Lt, XR Toe 2+ Views Rt";73660
+Abdomen (KUB);AP view only;XR Abdomen AP;74018
+Abdomen;AP and oblique and coned views;XR Abdomen AP Oblique Cone;74019
+Abdomen;AP included decubitus and/or erect views;"XR Abdomen AP + Decub + Erect 3 Views, XR Abdomen AP + Decub or Erect 2 Views";74020
+Arthrography;Shoulder;"XR Arthrogram Shoulder Bil, XR Arthrogram Shoulder Lt, XR Arthrogram Shoulder Rt";73040
+Arthrography;Elbow;"XR Arthrogram Elbow Lt, XR Arthrogram Elbow Rt";73085
+Arthrography;Wrist;"XR Arthrogram Wrist Lt, XR Arthrogram Wrist Rt";73115
+Arthrography;Hip;"XR Arthrogram Hip Bil, XR Arthrogram Hip Lt, XR Arthrogram Hip Rt";73525
+Arthrography;Knee;"XR Arthrogram Knee Bil, XR Arthrogram Knee Lt, XR Arthrogram Knee Rt";73580
+Arthrography;Ankle;"XR Arthrogram Ankle Lt, XR Arthrogram Ankle Rt";73615
+Joint Injection;"For aspiration or steroid injection, any joint under fluoroscopy";XR Guide Ndl Fluoro Plc Asp/Inj Joint;77002
+Esophagus;Barium swallow;XR Esophagram;74220
+UGI;"With or without delayed films, single contrast (no air)";XR UGI;74241
+UGI w/ Small Bowel;With multiple serial views to show small intestines;XR UGI w Small Bowel Series;74245
+UGI w/ Air;"With or without delayed films, with air contrast";XR UGI w Air Con    ;74247
+UGI w/Air w/ Small bowel;With multiple serial views to show small intestines;XR UGI w Air Con w Small Bowel Series;74249
+Small Bowel;"Multiple serial views to show small intestines, no UGI";XR Small Bowel Series;74250
+Barium Enema;Examines colon with contrast;XR Barium Enema Colon w or wo KUB;74270
+Barium Enema w/ Air;Examines colon with contrast and air;XR Barium Enema w Air Con;74280
+IVP;Urography with or without tomography;XR Urogram (IVP) w/wo Tomo;74400
+Cystography;Minimum 3 views;XR Cystogram 3+Views;74430
+Retrograde Urethrocystography;;XR Urography Retrograde;74450
+Voiding Urethrocystography;Bladder filled and images while voiding;XR Urethrocystography Voiding;74455
+Hysterosalpingogram;Visualize cervix and fallopian tubes;XR Hysterosalpingography;74740
+UPPER ABDOMEN;"Abdominal pain, RUQ pain, Epigastric pain, Assess gallbladder bile ducts, Abnormal liver function tests, Liver mass, Hepatitis, Cirrhosis, Splenomegaly";US Abdomen Complete;76700
+LOWER ABDOMEN;"RLQ Pain, Appendicitis";US Abdomen Limited;76705
+ABDOMEN W/ LIVER ELASTOGRAPHY;"Liver Disease, Liver Fibrosis, Cirrhosis";"US Abdomen Comp w Liver Elast, US Abdomen Ltd w Liver Elast";"76700, 76981"
+INGUINAL CANAL OR GROIN;"Inguinal hernia, Mass, Lymphandenopathy";US Abdomen Limited;76705
+CAROTIDS;"Carotid stenosis, Dizziness, TIA, Stroke or CVA, Amaurosis fugax, Carotid bruit, Atherosclerosis Syncopy";US Vasc Dplx Extracran Art Bilat Comp;93880
+"CHEST WALL, UPPER BACK SOFT TISSUE";"Lump, Soft tissue mass, Lymphadenopathy";US Upper Back Soft Tissue;76604
+RENAL ARTERIES;"Renovascular hypertension, Renal artery stenosis, Severe hypertension";US Vasc Dplx Abd/Pel/Ret Complete;93975
+"AXILLA, ARM PIT, EXTREMITY (Non Breast)";"Axillary lump, Lymphadenopathy, Abscess, Cellulitis Lump, Extremity mass, Swelling, Popliteal or Baker's cyst, Bursitis";US Extrem Non Vasc Ltd;76882
+ABDOMINAL AORTA SCREENING;Screening study for Abdominal Aorta Aneurysm (AAA);US AAA Screening;76706
+OBSTETRICAL ASSESSMENT;Greater than 14 weeks 2nd or 3rd Trimester;"US OB, Complete";76805
+OB FETAL ANATOMY ASSESSMENT;Greater than 14 weeks 18-22 Weeks OB scan for: Detailed Anatomic;"US OB Anatomy/Detail (US Preg+Detail Sing or 1st Gest)";76811
+OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;"Greater than 14 weeks- Fetal Abnormalities- Exam to be performed at Fetal age between 11.2-14.2 Weeks";US Preg Nuchal Transl 1st;76813
+OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;"Fetal Heart Beat, Placental location, Fetal position and/or qualitative amniotic fluid volume, AFI, Estimated Fetal Weight Dating, Interval growth, Re-eval of organ(prior scan), Size vs dating discrepancy";US OB limited (if prior US available from same pregnancy) fluid volume check only;76815
+OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;"Fetal Heart Beat, Placental location, Fetal position and/or qualitative amniotic fluid volume, AFI, Estimated Fetal Weight Dating, Interval growth, Re-eval of organ(prior scan), Size vs dating discrepancy";(US Preg 1 or > Fetuses Ltd) (US Preg Follow Up) fluid volume and anatomy check;76816
+FIRST TRIMESTER PREGNANCY INCLUDING TRANSVAGINAL;"Less Than 14 week, Pregnancy for: First trimester pregnancy viability and dating, First trimester bleeding, First trimester pregnancy with pain or bleeding, Ectopic pregnancy";"US OB < 14 Weeks & US OB Transvaginal (US Preg <14 Wks and US Preg Transvag)";76801 & 76817
+"PELVIS (FEMALE) UTERUS, OVARIES, ADNEXA (NON OB)
+PELVIS (MALE)";Pelvic pain;"US Pelvic, Complete and";76856
+"PELVIS (FEMALE) UTERUS, OVARIES, ADNEXA (NON OB)";"Ovarian cyst, Fibroid uterus, Pelvic bleeding, Pre or postmenopausal, Pelvic mass, Adnexal mass, Ovarian torsion";(US Preg 1 or > Fetuses Ltd) (US Preg Follow Up) fluid volume and anatomy;76830
+PELVIS (MALE);"Urinary Bladder Prostate Seminal Vesicles, Pelvic pathology";"US Pelvic, Complete";76856
+"RETROPERITONEUM KIDNEYS, BLADDER, AORTA, SVC, IVC, NODES";"Renal mass, UTI, Renal insufficiency or failure, Renal colic or flank pain, Bladder mass, Hematuria Cystitis Kidneys and Bladder";"US Retroperitoneal, Complete";76770
+BLADDER ONLY;Post Void Residual;"US Retroperitoneal, Limited";76775
+AORTA ONLY (NON-SCREENING);"Known or suspected abdominal aortic aneurysm, R/O AAA, Follow-up AAA, Abdominal bruit, Pulsatile, abdominal mass";"US Retroperitoneal, Limited";76775
+"SCROTUM, TESTICLES";"Scrotal or testicular mass, Scrotal or testicular pain or torsion, Scrotal swelling";US Scrotum;76870
+THYROID OR NECK SOFT TISSUE;"Thyroid nodule Cyst, Mass, Thyroid enlargement or Thyroidmegaly Parathyroid, Abnormal thyroid function tests, Thyroiditis, Hyperthyroidism, Hypothyroidism, Neck swelling, Lymphadenopathy, Neck mass or lump";US Soft Tissue Head and Neck;76536
+LOWER/UPPER EXTREMITY VENOUS;"DVT, Leg/Arm swelling, Pulmonary embolus, Elevated D-Dimer, Venous Insufficiency";"US Extremity Venous Duplex Bilateral/Unilateral";"93970/93971"
+INFANT HIPS;"Clicking Dislocation, Laxity Breech Birth";US Infant Hips w/ dynamic manipulation;76885
+INFANT PYLORIC STENOSIS;"Failure to gain weight, No bilious vomiting";"US Abdomen, Limited";76705
+SKULL - MID THIGH;"Malignancy vs benign Malignancy staging/restaging, Differentiating recurrent or residual disease from therapy induced changes, Monitoring the response to therapy";"PET/CT Skull/MidThigh Initial, PET/CT Skull/Thigh Subsequent, FDG Dose A9552";78815
+WHOLE BODY;Same as skull-mid thigh but for Melanoma Sarcoma Multiple Myeloma Merkel Cell Carcinoma;"PET/CT  Whole Body Initial, PET/CT Whole Body Subsequent, FDG Dose A9552";78816
+SKULL - MID THIGH (NETSPOT);Well differentiated neuroendocrine tumors;"PET/CT Skull to Mid Thigh NETSPOT, Ga-68 Dotatate A9587x54";78815
+SKULL - MID THIGH PSMA(PYLARIFY);Prostate Cancer;"PET/CT SKULL TO MID THIGH F-18 PSMA, Pylarify A9595x9";78815
+SKULL - MID THIGH (LUNG);"Follow up to ACR lung screening Lung RADS 4A, 4B, 4X";PET/CT SKULL TO MID THIGH F/U CT LUNG;78815
+CARDIAC SARCOID;Inflammation (cardiac sarcoidosis);PET/CT MYOCARDIAL METABOLIC EVALUATION;78459
+CARDIAC VIABILITY;Evaluate myocardial viability;PET/CT MYOCARDIAL METABOLIC EVALUATION;78459
+BRAIN;"Metabolic evaluation, Seizure evaluation, Alzheimer's disease, Frontotemporal dementia";PET/CT BRAIN METABOLIC EVALUATION;78608
+"Mammogram Screening (Age: 30 or greater)";"Screening, asymptomatic";"MA Mammo Screening Bil - MRS, MA Mammo Screening Implt Bil - MRS, MA Mammo Screening Implt Lt - MRS, MA Mammo Screening Implt Rt - MRS, MA Mammo Screening Lt - MRS, MA Mammo Screening Rt - MRS, MA Mammo Screening w Tomo Bil - MRS, MA Mammo Screening w Tomo Impl Bil - MRS, MA Mammo Screening w Tomo Implt Lt - MRS, MA Mammo Screening w Tomo Implt Rt - MRS, MA Mammo Screening w Tomo Lt - MRS, MA Mammo Screening w Tomo Rt - MRS";"77067 (non 3D), 77063 (3D)"
+"Targeted Ultrasound for each affected side (Age: less than 30)";Focal pain or focal abnormality;"US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";76642 unilateral
+Diagnostic mammogram and targeted ultrasound of the affected side (Age: 30 or greater);Focal pain or focal abnormality;"MA Mammo Diag Bil - MRS, MA Mammo Diag Implt Bil - MRS, MA Mammo Diag Implt Lt - MRS, MA Mammo Diag Implt Rt - MRS, MA Mammo Diag Lt - MRS, MA Mammo Diag w Tomo Bil - MRS, MA Mammo Diag w Tomo Implt Bil - MRS, MA Mammo Diag w Tomo Implt Lt - MRS, MA Mammo Diag w Tomo Implt Rt - MRS, MA Mammo Diag w Tomo Lt - MRS, MA Mammo Diag w Tomo Rt - MRS, US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";"3D/Tomo Mammo 77061 unilat, 77062 bilat NON 3D/Tomo Mammo 77065 unilat, 77066 bilat, Unilat Ultrasound 76642"
+Diagnostic bilateral mammogram and ultrasound of affected side (Age: 30 or greater);Focal pain or focal abnormality;"MA Mammo Diag Bil - MRS, MA Mammo Diag Implt Bil - MRS, MA Mammo Diag w Tomo Bil - MRS, MA Mammo Diag w Tomo Implt Bil - MRS, US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";"3D/Tomo Mammo 77062, NON 3D/Tomo Mammo 77066, Unilat Ultrasound 76642"
+Diagnostic unilateral mammogram of affected side and ultrasound (Age: 30 or greater);Focal pain or focal abnormality;"MA Mammo Diag Implt Lt - MRS, MA Mammo Diag Implt Rt - MRS, MA Mammo Diag w Tomo Implt Lt - MRS, MA Mammo Diag w Tomo Implt Rt - MRS, MA Mammo Diag w Tomo Lt - MRS, MA Mammo Diag w Tomo Rt - MRS, US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";"3D/Tomo Mammo 77061, NON 3D/Tomo Mammo 77065, Unilat Ultrasound 76642"
+"Ultrasound of affected side (Age: 30 or greater)";"Focal pain or focal abnormality";"US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";76642 unilateral
+"Mammogram Screening w/ 3D/Tomo (Age: 30 or greater)";"Non focal symptoms such as diffuse breast pain or diffuse lumpiness";"MA Mammo Screening w Tomo Bil - MRS, MA Mammo Screening w Tomo Impl Bil - MRS, MA Mammo Screening w Tomo Implt Lt - MRS, MA Mammo Screening w Tomo Implt Rt - MRS, MA Mammo Screening w Tomo Lt - MRS, MA Mammo Screening w Tomo Rt - MRS";"77067, 77063"
+Mammogram Screening (Non 3D/Tomo) (Age: 30 or greater);Non focal symptoms such as diffuse breast pain or diffuse lumpiness;"MA Mammo Screening Bil - MRS, MA Mammo Screening Implt Bil - MRS, MA Mammo Screening Implt Lt - MRS, MA Mammo Screening Implt Rt - MRS, MA Mammo Screening Lt - MRS, MA Mammo Screening Rt - MRS";77067
+"Ultrasound of affected side (US Breast Ltd) (Age: less than 30)";"Non focal symptoms such as diffuse breast pain or diffuse lumpiness";"US Breast Ltd Lt - MRS, US Breast Ltd Rt - MRS";76642 unilateral
+"Automated Breast Ultrasound/ABUS (Age: 30 or greater)";Dense Breasts diagnosed at Screening Mammogram;"US Breast Complete Auto Bil - MRS, US Breast Complete Auto Lt - MRS, US Breast Complete Auto Rt - MRS";"76641 Left, 76641 Right (Always ordered bilaterally)"
+"Stereotactic Breast Biopsy, Ultrasound Guided Breast Biopsy";Birads 4 on prior breast imaging exam;"US Bx Breast 1st Lesion Lt - MRS, US Bx Breast 1st Lesion Rt - MRS, US Aspiration Cyst Breast 1st - MRS";"Stereo 19081 unilateral, US Bx 19083 unilateral, MR Bx 19085 unilateral"
+Breast Localizations;Lumpectomy or Surgical Excisional Breast Biopsy Scheduled at Hospital;Mammography Guided Breast Localization;19281
