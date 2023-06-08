@@ -5,7 +5,7 @@ request.send();
 request.onreadystatechange = function() {
 	if (request.readyState === 4) {	// have to wait for AJAX call to complete
 		CSVData = CSVtoArray(request.responseText);
-		CSVData.splice(0,2);
+		CSVData.splice(0, 2);
 
 		// console.log("start adding " + CSVData.length + " indications")
 		// console.time("addProtocols()");
@@ -13,8 +13,8 @@ request.onreadystatechange = function() {
 		// console.timeEnd("addProtocols()");
 		
 		// remove the Loading.. entry
-		protocolList.remove('reasonTD','');
-		protocolList.remove('reasonTD',undefined);
+		protocolList.remove('reasonTD', '');
+		protocolList.remove('reasonTD', undefined);
 		}
 	};
 
@@ -51,7 +51,7 @@ function addProtocols() {
 // vars needed for the searchable table
 var options =
 		{
-			valueNames: ['protNum','protDesc','protIndic','protMDCT'],	// this seems to be necessary, but not sure what it does
+			valueNames: ['protNum', 'protDesc', 'protIndic', 'protMDCT'],	// this seems to be necessary, but not sure what it does
 			page: [2000]
 		},
 	protocolList = new List('protocolDIV', options);
