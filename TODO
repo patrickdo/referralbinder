@@ -2,7 +2,7 @@ script.js
     faster addProtocols()?
 
 CSV files: 
-    [] have Melody review 93975, 93976
+    [x] have Melody review 93975, 93976
     [x] fix formatting of 2nd-4th cols
 	streamline process Google Sheets -> CSV
         [no] publish protocols GSheets as CSV?
