@@ -5,6 +5,8 @@ script.js
 CSV files: 
 	[] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
         test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
+        Open csv in Google Sheets
+            File -> Share -> Publish to Web, sheet only, CSV
     streamline process Google Sheets -> CSV
         [no] publish protocols GSheets as CSV?
             CT
