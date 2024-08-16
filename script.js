@@ -39,9 +39,9 @@ function trimCSV(input) {
 function addProtocols() {
 	for (i=0; i<CSVData.length; i++) {
 		protocolList.add({								// populate the main table with protocol entries
-			bodypartTD: 	CSVData[i][0],
-			reasonTD: 		CSVData[i][1],
-			procedureTD: 	CSVData[i][2],
+			bodyregionTD: 	CSVData[i][0],
+			procedureTD: 	CSVData[i][1],
+			reasonTD: 		CSVData[i][2],
 			CPTTD: 			CSVData[i][3],
 		});
 	}

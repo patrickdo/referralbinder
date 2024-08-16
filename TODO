@@ -1,10 +1,11 @@
+[x] add Resource CT/MRI pdfs
 script.js
     faster addProtocols()?
 
 CSV files: 
-    [x] have Melody review 93975, 93976
-    [x] fix formatting of 2nd-4th cols
-	streamline process Google Sheets -> CSV
+	[] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
+        test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
+    streamline process Google Sheets -> CSV
         [no] publish protocols GSheets as CSV?
             CT
                 [no] https://docs.google.com/spreadsheets/d/e/2PACX-1vRB6SyqqTJeWubS8lpXXYHdi9sNBgOjn6UF218dT0EINDixfejerF9qR55TdMUXD9aEeD8IQDYqkhpd/pub?output=csv

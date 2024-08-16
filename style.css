@@ -53,3 +53,9 @@ tbody tr:hover {
 	line-height: 20px;
 	font-size: 16px;
 }
+
+.normalText {
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
+}
