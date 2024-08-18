@@ -1,4 +1,4 @@
-sep=;
+﻿sep=;
 Body Region; Procedure (Order As); Reason for Exam; CPT Code
 ABDOMEN, VASCULAR, AORTA; MR Angio Abdomen wo+w Con; AAA (abdominal aortic aneurysm), Abdominal Aortic Dissection Pre Kidney Transplant, Pre-op Uncontrolled Blood Pressure, Malignant renovascular HTN, Renal artery aneurysm, dissection or stenosis, Hypertension, Fibromuscular dysplasia, Mesenteric ischemia, Venous thrombosis, AVM (arteriovenous malformation) Arterial, MRV Venous; 74185
 PELVIS; MR Angio Pelvis wo+w Con; AVM (arteriovenous malformation), May-Thurner Syndome, Pelvic Congestion, Femoral Arteries; 72198
@@ -68,7 +68,7 @@ UPPER EXTREMITY; CT Angio Upper Extrem w Con Bil<br>CT Angio Upper Extrem w Con 
 UPPER EXTREMITY; CT Angio Upper Extrem wo+w Con Lt<br>CT Angio Upper Extrem wo+w Con Rt; Thoracic outlet syndrome, Paget-Schroetter disease, subclavian stenosis; 75898 Lt<br>76937 Rt
 ABDOMEN; CT Abdomen wo IV Con; Renal insufficiency patients.; 74150
 ABDOMEN; CT Abdomen w IV Con; Abdominal pain, abnormal ultrasound, neoplasm/mass Infection, weight loss, hernia, pancreatic lesion, elevated LFT, Pseudocyst, pancreatitis, Follow up renal cancer, s/p nephrectomy; 74160
-ABDOMEN, PELVIS; CT Abdomen wo+w IV Con; Abnormal ultrasound or MRI findings, Liver mass, Complex Renal Cyst, Hematuria, Cirrhosis, Hepatitis, Renal mass, Post tumor ablation or embolization, Pancreatic mass, Adrenal mass, (Multiphase liver, CT renal mass protocol, Pancreas protocol, Adrenal Protocol) Additional pelvic imaging can be performed upon request; 74170<br>74178
+ABDOMEN, PELVIS; CT Abdomen wo+w IV Con; Abnormal ultrasound or MRI findings, Liver mass, Complex Renal Cyst, Hematuria, Cirrhosis, Hepatitis, Renal mass, Post tumor ablation or embolization, Pancreatic mass, Adrenal mass, (Multiphase liver, CT renal mass protocol, Pancreas protocol, Adrenal Protocol)<br><br><i>Additional pelvic imaging can be performed upon request</i>; 74170<br>74178
 ABDOMEN, PELVIS; CT Abdomen+Pelvis wo IV Con; Renal Stone, urinary tract stones or obstruction, Renal colic, Flank pain, Urinary frequency, Hematuria, Dysuria, Retroperitoneal hematoma, Renal Insufficiency patients; 74176
 ABDOMEN, PELVIS; CT Abdomen+Pelvis w IV Con; Mass, adenopathy, Cancer staging, Abdominal pain, Pelvic Pain, Lymphoma, Nausea/Vomiting/Diarrhea, Bloody stools, Jaundice, Infection, Abscess, Diverticulitis, Diverticulosis, Weight loss, Constipation, Metastasis Appendicitis, Colitis, Crohns, Ulcerative colitis, IBD, Bowel obstruction, Abdominal wall hernia; 74177
 ABDOMEN, PELVIS; CT Urogram; Hematuria Staging or restaging, transitional cell carcinoma, Post-surgical evaluation, UPJ obstruction, Bladder mass, Abnormal Cystogram; 74178

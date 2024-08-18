@@ -1,10 +1,10 @@
-[x] add Resource CT/MRI pdfs
 script.js
     faster addProtocols()?
 
 CSV files: 
-	[] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
+	[-] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
         test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
+        8/16/24 Melody said no
     streamline process Google Sheets -> CSV
         [no] publish protocols GSheets as CSV?
             CT
