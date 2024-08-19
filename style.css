@@ -10,7 +10,7 @@ body {
 
 table {
 	border: 1px solid #CCC;
-	font-size: 14px;
+	font-size: medium;
 	border-collapse: collapse;
 	background-color: rgb(217,217,217);
 	/* width: 980px; */
@@ -47,7 +47,7 @@ tbody tr:hover {
 }
 
 .search {
-	background: #ffffff url('https://cdn3.iconfinder.com/data/icons/iconic-1/32/magnifying_glass-128.png') no-repeat 16px/16px;
+	background: #ffffff url('Resources/magnifying-glass-128.png') no-repeat 16px/16px;
 	background-position: 3px 3px;
 	padding-left: 22px !important;
 	height: 20px;
