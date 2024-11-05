@@ -11,6 +11,8 @@ script.js
     faster addProtocols()?
 
 CSV files: 
+    11/4/24: Currently GDriveCSV doesn't work with the GSheet that Melody shared
+        https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/pub?gid=1407101405&single=true&output=csv
 	[-] XmlHttpRequest GET directly from published GDrive csv
         8/20/24: works fine when getting published GDrive csv from my personal google account
             request.open('GET', 'https://docs.google.com/spreadsheets/d/1wYu38GHj68s4e4dEEjwC0vaFipVhTNoNL5mjOdWShfE/pub?gid=1961621208&single=true&output=csv');
