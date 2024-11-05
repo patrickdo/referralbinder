@@ -11,9 +11,12 @@ script.js
     faster addProtocols()?
 
 CSV files: 
-	[-] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
-        test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
-        8/16/24 Melody said no
+	[-] XmlHttpRequest GET directly from published GDrive csv
+        8/20/24: works fine when getting published GDrive csv from my personal google account
+            request.open('GET', 'https://docs.google.com/spreadsheets/d/1wYu38GHj68s4e4dEEjwC0vaFipVhTNoNL5mjOdWShfE/pub?gid=1961621208&single=true&output=csv');
+        8/20/24: CORS error when getting published GDrive csv from Melody CommonSpirit google account - this is likely because sharing policy is fixed to CommonSpirit only
+            request.open('GET', 'https://docs.google.com/spreadsheets/d/1mpGLqxV5t61Cal9gjhYGHoZrA3UkkN9TBvfmudwFpc4/pub?gid=767517595&single=true&output=csv');
+
     streamline process Google Sheets -> CSV
         [no] publish protocols GSheets as CSV?
             CT
