@@ -1,3 +1,12 @@
+11/4/2024 workflow:
+    1) Open Melody's GSheet and copy entire contents into Excel. 
+    2) File - Options - Advanced
+        a) Uncheck Use system separators
+        b) Decimal separator: ,
+        c) Thousands separator: .
+    3) Save as csv
+    4) Copy into project folder, rename to DHAI_Referral_Guide.csv
+
 script.js
     faster addProtocols()?
 
