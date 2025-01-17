@@ -1,6 +1,6 @@
 11/4/2024 workflow:
     1) Open Melody's GSheet and copy entire contents into Excel. 
-    2) File - Options - Advanced
+    2) File - Options - Advanced - Editing Options
         a) Uncheck Use system separators
         b) Decimal separator: ,
         c) Thousands separator: .
