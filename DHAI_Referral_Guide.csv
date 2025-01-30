@@ -1,11 +1,11 @@
-﻿sep=;
+﻿"sep=;"
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 ABDOMEN, VASCULAR, AORTA;MR Angio Abdomen wo+w Con;AAA (abdominal aortic aneurysm), Pre-op Kidney Transplant, Uncontrolled Blood Pressure, Malignant Renovascular HTN, Renal Artery Aneurysm, Dissection or Stenosis, Hypertension, Fibromuscular Dysplasia, Mesenteric Ischemia, Venous Thrombosis, AVM (arteriovenous malformation), MRV Venous;74185
 PELVIS;MR Angio Pelvis wo+w Con;AVM (arteriovenous malformation), May-Thurner Syndrome, Pelvic Congestion, Femoral Arteries;72198
 ABDOMEN, PELVIS, VASCULAR;<u>Order 4 Exams</u>:<br>MR Angio Abdomen wo+w Con<br>MR Angio Pelvis wo+w Con<br>MR Angio Lower Extrem wo+w Con Lt<br>MR Angio Lower Extrem wo+w Con Rt;Peripheral Vascular Disease, Claudication, Peripheral Runoff, (ONLY if CT unavailable or contraindicated);<u>Order 4 Exams</u>:<br>74185<br>72198<br>73725<br>73725
 HEAD, BRAIN, ARTERIAL, VENOUS;MR Angio Head Venous wo Con (MRV);Dural Venous Sinus Thrombosis or Stenosis, Cerebrovascular Disease, Idiopathic Intracranial Hypertension, Positional Headache, Headache/Migraine with family history of Aneurysm, Papilledema, Vascular malformation;70544
 ABDOMEN;MR Angio Abdomen w Runoff;Runoff MRA, Claudication, Lower Extremity pain, PAD (peripheral artery disease);C8900
-HEAD;MR Angio Head wo Con;Cerebrovascular Disease, Idiopathic Intracranial Hypertension, Positional Headache, Headache/Migraine with family history of Aneurysm, Papilledema, Vascular malformation; 70544
+HEAD;MR Angio Head wo Con;Cerebrovascular Disease, Idiopathic Intracranial Hypertension, Positional Headache, Headache/Migraine with family history of Aneurysm, Papilledema, Vascular malformation.;70544
 HEAD;MR Angio Head wo+w Con;Post Embolization Aneurysm Follow Up;70546
 UPPER EXTREMITY;MR Angio Upper Extrem wo+w Con Lt<br>MR Angio Upper Extrem wo+w Con Rt;Hypothenar Hammer Syndrome, Subclavian AVM (arteriovenous malformation);73225
 CHEST;MR Chest wo Con;Sternal Mass, Brachial Plexopathy, Trauma, Injury, Tumor Invasion, Thymic Lesion, Thymoma, Mediastinal Mass;71550
@@ -50,16 +50,16 @@ ABDOMEN, PELVIS;CT Angio Abdomen+Pelvis w Con;Mesenteric or Renal Artery Stenosi
 ABDOMEN, PELVIS;CT Angio Abd/Pelvis wo+w Con;Abdominal Aortic Dissection, Aneurysm, AAA, Post Aortic Stent Graft, Mesenteric Ischemia, Renal Artery Stenosis, Abnormal Ultrasound;74174
 ABDOMEN;CT Angio Abdomen w Con;Renal Artery Stenosis, Aneurysm;74175
 ABDOMEN;CT Angio Abdomen wo+w Con;Abdominal Aortic Dissection, Aneurysm, Renal Artery Stenosis, Abnormal Ultrasound, Mesenteric Ischemia, Status Post Aortic Stent Graft Placement;74175
-ABDOMEN, PELVIS;CT Angio Abdominal Aorta;Abdominal Aortic Aneurysm, Pre-surgical Endovascular Evaluation, Renal Artery Stenosis, Mesenteric Artery Stenosis, Thrombosis, Dissection, Vasculitis, Vasculopathy, GI Bleed, DIEP Flap Pre-surgical;71275
+ABDOMEN, PELVIS;CT Angio Abdominal Aorta;Abdominal Aortic Aneurysm, Pre-surgical Endovascular Evaluation, Renal Artery Stenosis, Mesenteric Artery Stenosis, Thrombosis, Dissection, Vasculitis, Vasculopathy, GI Bleed, DIEP Flap Pre-surgical;74174
 ABDOMEN, PELVIS, EXTREMITY;CT Angio Aorta with Runoff;Peripheral Artery Disease, Lower Extremity Claudication, Abnormal ABI;75635
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275
 CHEST;CT Angio Chest w Con;Evaluation or follow up Aortic Aneurysm/Dissection, Coarctation, Abnormal Ascending Aorta;71275
 CHEST;CT Angio Chest wo+w Contrast;Evaluation of known Aortic Pathology, Postsurgical Endovascular Evaluation, Subclavian Steal Syndrome, Subclavian Stenosis, Unequal BP in Arms, Prior Thoracic Aortic Stent Graft repair;71275
-CHEST, ABDOMEN, PELVIS;CT Angio Chest+Abd+Pelvis w Con;DaVinci Mitral Valve Replacement, Aortic Dissection, Aortic Aneurysm, Mesenteric Renal Artery Stenosis or Aneurysm;71275
-CHEST, ABDOMEN;CT Angio Chest+Abdomen w Con;Evaluation Coarctation of Aorta, Ascending Aortic Dilation, Hypertension;71275
-CHEST, ABDOMEN;CT Angio Chest+Abdomen wo+w Con;Known or suspected Aortic Dissection, Aortic Aneurysm, Status-post Aortic Stent Graft Placement;71275
+CHEST, ABDOMEN, PELVIS;CT Angio Chest+Abd+Pelvis w Con;DaVinci Mitral Valve Replacement, Aortic Dissection, Aortic Aneurysm, Mesenteric Renal Artery Stenosis or Aneurysm;71275<br>74174
+CHEST, ABDOMEN;CT Angio Chest+Abdomen w Con;Evaluation Coarctation of Aorta, Ascending Aortic Dilation, Hypertension;71275<br>74175
+CHEST, ABDOMEN;CT Angio Chest+Abdomen wo+w Con;Known or suspected Aortic Dissection, Aortic Aneurysm, Status-post Aortic Stent Graft Placement;71275<br>74175
 HEAD, BRAIN;CT Angio Head wo+w Con;Stroke, Suspected Aneurysm with Headache, Aneurysm Followup, Vascular Malformation, Vascular Injury, Congenital Abnormalities, Vasculitis or Vasculopathy, Dural Venous Sinus Thrombosis;70496
-HEAD, NECK;CT Angio Head+Neck w Contrast;Stroke, TIA, Carotid Stenosis, Sudden or Transient Visual Loss, Vertebrobasilar Insufficiency;70496
+HEAD, NECK;CT Angio Head+Neck w Contrast;Stroke, TIA, Carotid Stenosis, Sudden or Transient Visual Loss, Vertebrobasilar Insufficiency;70496<br>70498
 HEART, CHEST, CARDIAC;CT Angio Heart/Coronary Art 3D W Con;Evaluation of the Coronary Arteries, Coronary Artery Disease, Cardiomyopathy, Abnormal ECG, Troponemia;75574
 NECK;CT Angio Neck w Con;Carotid Stenosis, Trauma, Fibromuscular Dysplasia, Aneurysm;70498
 NECK;CT Soft Tissue Neck w Con;Mass, Cancer Staging or Followup, Infection, Salivary Tract Inflammation, Dysphagia, Hoarseness, Vocal Cord Dysfunction, Upper Airway Obstruction;70491
@@ -77,20 +77,21 @@ ABDOMEN, PELVIS;CT Enterography;Crohn's Disease or Suspected Crohn's Disease, In
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
 CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Effusion (Exudative), Chest Wall Mass, Abnormal CXR, Cough, Sarcoidosis, Hilar Abnormality, History of Cancer, Tumor, Mets, Neoplasm/Mass Abscess, Enlarged Aortic Arch, Lymphadenopathy;71260
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID FollowUp, Fibrosis, Emphysema;71250
-CHEST, LUNG;CT Chest Low Dose;Pulmonary Nodule followup;71271<br>G0297
-CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients;71260
-CHEST, ABDOMEN;CT Chest+Abdomen w Con;Lung Cancer followup, sometimes Colon Cancer followup (MR Pelvis ordered at the same time);74160
-CHEST, ABDOMEN;CT Chest+Abdomen wo Contrast;Patients unable to have Contrast<br>Lung Cancer followup, Rectal Cancer followup (MR Pelvis ordered at the same time);74150
-CHEST, ABDOMEN;CT Chest+Abdomen wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest for potential Metastasis;74170
-CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis w Con;Cancer Staging, Unexplained Weight Loss;74177
-CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo Con;Patients unable to have Contrast<br>Cancer Staging, Unexplained Weight Loss;74176
-CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest and Pelvis for potential Metastasis;74178
+CHEST, LUNG;CT Chest Low Dose;Pulmonary Nodule followup;71250
+CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients;71250
+CHEST, ABDOMEN;CT Chest+Abdomen w Con;Lung Cancer followup, sometimes Colon Cancer followup (MR Pelvis ordered at the same time);71260<br>74160
+CHEST, ABDOMEN;CT Chest+Abdomen wo Contrast;Patients unable to have Contrast<br>Lung Cancer followup, Rectal Cancer followup (MR Pelvis ordered at the same time);71250<br>74150
+CHEST, ABDOMEN;CT Chest+Abdomen wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest for potential Metastasis;71260<br>74170
+CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis w Con;Cancer Staging, Unexplained Weight Loss;71260<br>74177
+CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo Con;Patients unable to have Contrast<br>Cancer Staging, Unexplained Weight Loss;71250<br>74176
+CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest and Pelvis for potential Metastasis;71260<br>74178
 CHEST, LUNG;CT Lung Screening;50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only;71271
 CORONARY, ARTERIES, HEART;CT Cardiac Calcium Scoring wo Con;Evaluate for presence of calcium in Coronary Artery;75571
 FACE, HEAD;CT Maxillofacial wo Con;Trauma, Facial Fracture, Nasal Fracture, Pain, Bony Abnormalities;70486
 FACE, HEAD;CT Maxillofacial w Con;Infection, Swelling, Mass in Face, Tumor, Abscess;70487
 HEAD;CT Head wo Con;Trauma, Headache, CVA, Stroke, Bleed, Alzheimer's, Memory Loss, Confusion, Facial Droop, TIA, Change in Mental Status, Loss of Balance, Syncope, Tinnitus, Vertigo, Dizziness, Shunt Check, Hydrocephalus;70450
 HEAD;CT Head wo+w Con;Metastatic Staging, Mass, Tumor, Infection, Abscess, Meningioma, HIV, Headache and Neurologic Sign;70470
+TEMPORAL, HEAD;CT Temporal Bones wo Con;Cholesteatoma, hearing loss, trauma, mastoiditis, otitis media, tinnitus, retrotympanic mass, otalgia, ossicular prosthesis evaluation, cochlear implant evaluation;70480
 TEMPORAL, HEAD;CT Temporal Bones w Con;Pulsatile Tinnitus, Glomus Tumor, Sensorineural Hearing Loss;70481
 HEART, CHEST, CARDIAC;CT Heart Eval Coronary Ca wo Con;Evaluate for presence of calcium in Coronary Artery, Hyperlipidemia;75571
 HEART, CHEST, CARDIAC;CT Heart Struct/Morph Congenital 3D wCon;CHD, Congenital Heart Defects;75573
@@ -148,6 +149,7 @@ SPINE, CERVICAL;XR C Spine 6 or more Views;6 views or more;72052
 SPINE, THORACIC;XR T Spine 2 Views;2 views;72070
 SPINE, THORACIC;XR T Spine 3 Views;3 views;72072
 SPINE, THORACIC;XR T Spine 4+ Views;4 views or more;72074
+SPINE, THORACIC, LUMBAR;XR Thoracolumbar 2 Views;2 views;72080
 SPINE, SCOLIOSIS;XR Scoliosis Spine 1 View;Entire thoracic, lumbar, cervical and sacral spine 1 view;72081
 SPINE, SCOLIOSIS;XR Spine Entire 2-3 Views;Entire thoracic, lumbar, cervical and sacral spine 2 view;72082
 SPINE, SCOLIOSIS;XR Spine Entire 4-5 views;Entire thoracic, lumbar, cervical and sacral spine 4 or 5 views;72083
