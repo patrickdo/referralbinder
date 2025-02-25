@@ -78,14 +78,14 @@ CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecif
 CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Effusion (Exudative), Chest Wall Mass, Abnormal CXR, Cough, Sarcoidosis, Hilar Abnormality, History of Cancer, Tumor, Mets, Neoplasm/Mass Abscess, Enlarged Aortic Arch, Lymphadenopathy;71260
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID FollowUp, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest Low Dose;Pulmonary Nodule followup;71250
-CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients;71250
+CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients<br><a href="https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link">CT Lung Screening Form</a>;71250
 CHEST, ABDOMEN;CT Chest+Abdomen w Con;Lung Cancer followup, sometimes Colon Cancer followup (MR Pelvis ordered at the same time);71260<br>74160
 CHEST, ABDOMEN;CT Chest+Abdomen wo Contrast;Patients unable to have Contrast<br>Lung Cancer followup, Rectal Cancer followup (MR Pelvis ordered at the same time);71250<br>74150
 CHEST, ABDOMEN;CT Chest+Abdomen wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest for potential Metastasis;71260<br>74170
 CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis w Con;Cancer Staging, Unexplained Weight Loss;71260<br>74177
 CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo Con;Patients unable to have Contrast<br>Cancer Staging, Unexplained Weight Loss;71250<br>74176
 CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo+w Con;Dedicated Abdomen (Liver Mass, Pancreatic Mass, Renal Mass, Adrenal Mass) with Chest and Pelvis for potential Metastasis;71260<br>74178
-CHEST, LUNG;CT Lung Screening;50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only;71271
+CHEST, LUNG;CT Lung Screening;50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href="https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link">CT Lung Screening Form</a>;71271
 CORONARY, ARTERIES, HEART;CT Cardiac Calcium Scoring wo Con;Evaluate for presence of calcium in Coronary Artery;75571
 FACE, HEAD;CT Maxillofacial wo Con;Trauma, Facial Fracture, Nasal Fracture, Pain, Bony Abnormalities;70486
 FACE, HEAD;CT Maxillofacial w Con;Infection, Swelling, Mass in Face, Tumor, Abscess;70487
