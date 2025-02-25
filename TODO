@@ -11,6 +11,7 @@
     6) Open the repository in your external editor (VS Code)
     7) Save/Commit the files
     8) Sync Changes so they are available on the internet and not just my local PC
+        a) check status of publication to gh-pages here: https://github.com/patrickdo/referralbinder
 
 script.js
     faster addProtocols()?
