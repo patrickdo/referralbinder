@@ -64,7 +64,7 @@ CHEST, CLAVICLE;MR Clavicle wo Con Lt<br>MR Clavicle wo Con Rt;Pain in Clavicula
 CHEST, LUNG;CT Chest Low Dose;Pulmonary Nodule followup;71250
 CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Effusion (Exudative), Chest Wall Mass, Abnormal CXR, Cough, Sarcoidosis, Hilar Abnormality, History of Cancer, Tumor, Mets, Neoplasm/Mass Abscess, Enlarged Aortic Arch, Lymphadenopathy;71260
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID FollowUp, Fibrosis, Emphysema;71250
-CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients<br><a href="https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CT Lung Screening Form</a>;71250
+CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term followup (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
 CHEST, LUNG;CT Lung Screening;50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href="https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CT Lung Screening Form</a>;71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
