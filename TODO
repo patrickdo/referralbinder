@@ -1,4 +1,4 @@
-1/17/2025 workflow:
+3/23/25 and 1/17/2025 workflow:
     1) Open Melody's GSheet and copy/paste entire contents into Excel. 
         a) https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/edit?gid=1407101405#gid=1407101405
     2) File - Options - Advanced - Editing Options
@@ -12,6 +12,7 @@
     7) Save/Commit the files
     8) Sync Changes so they are available on the internet and not just my local PC
         a) check status of publication to gh-pages here: https://github.com/patrickdo/referralbinder
+        b) https://patrickdo.github.io/referralbinder/
 
 script.js
     faster addProtocols()?
