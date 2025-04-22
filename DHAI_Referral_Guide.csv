@@ -157,7 +157,7 @@ OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;US Preg Nuchal Transl 1st;Fetal Abn
 OB FIRST TRIMESTER PREGNANCY INCLUDING TRANSVAGINAL;US Preg <14 Wks Sngl/1st Gest<br>US Preg <14 Wks/Transvag;Less Than 14 weeks, Pregnancy for: First Trimester, Pregnancy Viability and Dating, First Trimester Bleeding, First Trimester Pregnancy with Pain or Bleeding, Ectopic Pregnancy;76801, if with transvag add 76817
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg 1 or > Fetuses Ltd;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI);76815
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg Follow Up per Gest;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI), Estimated Fetal Weight, Interval Growth, Re-eval of Organ (Prior Scan), Size vs Dating Discrepancy;76816
-OB, OBSTETRICAL ASSESSMENT, OB FETAL ANATOMY ASSESSMENT, Detailed;US Preg =>14 Wks Sgl or 1st Gest<br>US Preg+Detail Sngl or 1st Gest;Greater than 14 weeks 2nd or 3rd Trimester, 18-22 weeks OB scan for: Fetal Anatomic Survey (FAS);76805
+OB, OBSTETRICAL ASSESSMENT, OB FETAL ANATOMY ASSESSMENT, Detailed;US Preg =>14 Wks Sgl or 1st Gest<br>US Preg+Detail Sngl or 1st Gest;Greater than 14 weeks 2nd or 3rd Trimester, 18-22 weeks OB scan for: Fetal Anatomic Survey (FAS);US Preg >= 14 Wks 76805<br>US Preg+Detail 76811
 ORBITS, OPTIC;XR Optic Foramina;;70190
 ORBITS;XR Orbits 4+ Views;Complete, 4 views or more;70200
 PELVIS - FEMALE;US Pelvic Non OB w Trans Vag;Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856, if with transvag add 76830
