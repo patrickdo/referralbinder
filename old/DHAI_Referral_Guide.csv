@@ -1,4 +1,4 @@
-"sep=;"
+﻿"sep=;";;;
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 <u>BREAST</u>:<br>AUTOMATED BREAST ULTRASOUND/ABUS (AGE: 30 OR GREATER);US Screening Auto Whole Breast Bil -MRS<br>US Screening Auto Whole Breast Lt -MRS<br>US Screening Auto Whole Breast Rt -MRS;Dense Breasts diagnosed at Screening Mammogram;AWBUS<br><i>(Always ordered bilaterally)</i>
 <u>BREAST</u>:<br>DIAGNOSTIC MAMMOGRAM AND TARGETED BREAST ULTRASOUND OF THE AFFECTED SIDE (AGE: 30 OR GREATER);MA Mammo Diag w Tomo Bil - MRS<br>MA Mammo Diag w Tomo Implt Bil - MRS<br>MA Mammo Diag w Tomo Implt Lt - MRS<br>MA Mammo Diag w Tomo Implt Rt - MRS<br>MA Mammo Diag w Tomo Lt - MRS<br>MA Mammo Diag w Tomo Rt - MRS<br>US Breast Ltd Lt - MRS<br>US Breast Ltd Rt - MRS<br>US Breast Ltd Bilat - MRS;Focal Pain or Focal Abnormality;<u>3D/Tomo Mammo</u> 77061 unilat<br><br>77062 bilat<br><br><u>Ultrasound</u> 76642 Unilat/Bilat
@@ -27,7 +27,7 @@ ABDOMEN;CT Angio Abdomen wo+w Con;Abdominal Aortic Dissection, Aneurysm, Renal A
 ABDOMEN;MR Abdomen wo+w Con;Adrenal Mass, Renal Mass, Liver Mass, Cirrhosis, Hemochromatosis, Pancreatic Mass, Painless Jaundice, Indeterminate Mass on CT or Ultrasound, Presurgical Evaluation, Post-embolization or Ablation Follow Up, Hematuria, Abdominal Pain, Tumor, Cancer, Mets;74183
 ABDOMEN;MR Angio Abdomen w Runoff;Runoff MRA, Claudication, Lower Extremity pain, PAD (peripheral artery disease);C8900
 ABDOMEN;MR MRCP wo Con;MRCP (Biliary and Pancreatic Ducts), Choledocholithiasis, Biliary Tract Stone, Biliary Dilatation or Obstruction, Congenital Biliary Abnormality, Choledochal Cyst, Sclerosing Cholangitis, Primary Biliary Cirrhosis, Painless Jaundice, Pre-liver Transplant;74181
-ABDOMEN;US Abdomen Complete;Abdominal Pain, Epigastric Pain, Abnormal Liver Function Tests, Liver Mass, Hepatitis, Cirrhosis, Splenomegaly;76700
+ABDOMEN;US Abdomen Complete;Abdominal Pain, Epigastric Pain, Abnormal Liver Function Tests, Liver Mass, Hepatitis, Cirrhosis, Splenomegaly, Ascites;76700
 ABDOMEN;XR Abdomen AP + Decub + Erect 3 Views<br>XR Abdomen AP + Decub or Erect 2 Views;AP included decubitus and/or erect views;74020
 ABDOMEN;XR Abdomen AP Oblique Cone;AP and oblique and coned views;74019
 ABDOMINAL AORTA SCREENING;US AAA Screening;Screening Study for Abdominal Aorta Aneurysm (AAA);76706
@@ -66,7 +66,7 @@ CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Ef
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow Up, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term follow up (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
-CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ? 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
+CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
 CHEST, STERNOCLAVICULAR, SC JOINT;CT Chest wo Con;Fracture, Nonunion, Malunion;71250
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275
@@ -126,7 +126,7 @@ LOWER EXTREMITY, INFANT;XR Lower Extrem Infant 2+ Views Bil<br>XR Lower Extrem I
 LOWER EXTREMITY, JOINT;<u>Order specific body part</u>:<br>MR Hip wo Con Lt<br>MR Hip wo Con Rt<br>MR Knee wo Con Lt<br>MR Knee wo Con Rt<br>MR Ankle wo Con Lt<br>MR Ankle wo Con Rt;Arthritis, AVN (avascular necrosis), Fracture, Stress Fracture, Internal Derangement, Joint Pain (specify joint), Labral Tear, Muscle Tear, Tendon Tear, Ligament Tear, Cartilage Tear, Osteochondritis Dissecans (OCD);73721
 LOWER EXTREMITY, JOINT;<u>Order specific body part</u>:<br>MR Hip wo+w Con Lt<br>MR Hip wo+w Con Rt<br>MR Knee wo+w Con Lt<br>MR Knee wo+w Con Rt<br>MR Ankle wo+w Con Lt<br>MR Ankle wo+w Con Rt;Abscess, Ulcer, Cellulitis, Fasciitis, Myositis, Inflammatory Arthritis, Osteomyelitis, Septic Arthritis, Tumor, Mass, Cancer, Mets;73723
 LOWER EXTREMITY;<u>Order specific body part</u>:<br>MR Femur/Thigh wo Con Lt<br>MR Femur/Thigh wo Con Rt<br>MR Tib/Fib wo con Lt<br>MR Tib/Fib wo con Rt<br>MR Foot wo Con Lt<br>MR Foot wo Con Rt;Fracture, Stress Fracture, Muscle Tear, Tendon Tear;73718
-LOWER EXTREMITY;<u>Order specific body part</u>:<br>MR Femur/Thigh wo Con Lt<br>MR Femur/Thigh wo+w Con Rt<br>MR Tib/Fib wo+w con Lt<br>MR Tib/Fib wo+w con Rt<br>MR Foot wo+w Con Lt<br>MR Foot wo+w Con Rt;Abscess, Ulcer, Bone Tumor, Mass, Cancer, Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma, Osteomyelitis, Soft Tissue Tumor, Mass;73720
+LOWER EXTREMITY;<u>Order specific body part</u>:<br>MR Femur/Thigh wo+w Con Lt<br>MR Femur/Thigh wo+w Con Rt<br>MR Tib/Fib wo+w con Lt<br>MR Tib/Fib wo+w con Rt<br>MR Foot wo+w Con Lt<br>MR Foot wo+w Con Rt;Abscess, Ulcer, Bone Tumor, Mass, Cancer, Mets, Cellulitis, Fasciitis, Myositis, Morton's Neuroma, Osteomyelitis, Soft Tissue Tumor, Mass;73720
 LOWER EXTREMITY;XR Ankle 2 Views Bil<br>XR Ankle 2 Views Lt<br>XR Ankle 2 Views Rt;2 views;73600
 LOWER EXTREMITY;XR Ankle 3+ Views Bil<br>XR Ankle 3+ Views Lt<br>XR Ankle 3+ Views Rt;Complete, 3 views or more;73610
 LOWER EXTREMITY;XR Calcaneus 2+ Views Bil<br>XR Calcaneus 2+ Views Lt<br>XR Calcaneus 2+ Views Rt;Minimum 2 views;73650
@@ -183,7 +183,7 @@ PET, NETSPOT;PET/CT Skull to Mid Thigh NETSPOT<br>Ga-68 Dotatate A9587x54;Well D
 PET, PSMA;PET/CT Skull to Mid Thigh F-18 PSMA<br>Pylarify A9595x9;Prostate Cancer;78815
 PET, SKULL TO MID THIGH;PET/CT Tumor Skull Mid-Thigh Initial<br>PET/CT Tumor Skull - Mid Thigh Subsequent<br>FDG Dose A9552;Malignancy vs Benign Malignancy Staging/Restaging, Differentiating Recurrent or Residual Disease from Therapy Induced Changes, Monitoring the Response to Therapy;78815
 PET, WHOLE BODY;PET/CT Whole Body Initial<br>PET/CT Whole Body Subsequent<br>FDG Dose A9552;Melanoma Sarcoma, Multiple Myeloma, Merkel Cell Carcinoma, Osteosarcoma;78816
-RENAL ARTERIES;US Vasc Dplx Ab/Pel/Ret Comp;Renovascular Hypertension, Renal Artery Stenosis, Severe Hypertension;93975
+RENAL ARTERIES;US Vasc Dplx Ab/Pel/Ret Comp;Renovascular Hypertension, Renal Artery Stenosis, Severe Hypertension, Eval TIPS Placement;93975
 RETROPERITONEUM KIDNEYS, BLADDER, AORTA, SVC, IVC, NODES;US Retroperitoneal Complete;Renal Mass, UTI, Renal Insufficiency or Failure, Renal Colic or Flank Pain, Bladder Mass, Hematuria, Cystitis, Kidneys and Bladder;76770
 RIBS;XR Ribs 2 Views Lt<br>XR Ribs 2 Views Rt;Unilateral, 2 views;71100
 RIBS;XR Ribs 3 Views Bil;Bilateral, 3 views;71110
