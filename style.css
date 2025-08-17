@@ -34,6 +34,16 @@ tbody tr:hover {
 	background: rgb(191,191,191);
 }
 
+.page-title {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.updated-date {
+	float: right;
+	font-size: small;
+}
+
 .procedureCol {
 	width: 25%;
 }
