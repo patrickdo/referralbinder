@@ -9,7 +9,7 @@ request.onreadystatechange = function() {
 
 		// console.log("start adding " + CSVData.length + " indications")
 		// console.time("addProtocols()");
-			addProtocols();
+			addProtocols(CSVData);
 		// console.timeEnd("addProtocols()");
 		
 		// remove the Loading.. entry
@@ -36,15 +36,21 @@ function trimCSV(input) {
 }
 
 // Add CSV Data to the table
-function addProtocols() {
-	for (i=0; i<CSVData.length; i++) {
-		protocolList.add({								// populate the main table with protocol entries
-			bodyregionTD: 	CSVData[i][0],
-			procedureTD: 	CSVData[i][1],
-			reasonTD: 		CSVData[i][2],
-			CPTTD: 			CSVData[i][3],
-		});
-	}
+function addProtocols(data) {
+// 2025-08-16 - Gemini Refactored to improve performance by reducing the number of calls to protocolList.add().
+// 1. First, transform the entire 2D array into an array of objects.
+//    The Array.map() method is ideal for this kind of data transformation.
+	const itemsToAdd = data.map(row => {
+		return {
+			bodyregionTD: row[0],
+			procedureTD:  row[1],
+			reasonTD:     row[2],
+			CPTTD:        row[3]
+		};
+	});
+
+    // 2. Now, call .add() only ONCE with the complete array of new items.
+    protocolList.add(itemsToAdd);
 }
 
 // VARIABLES
