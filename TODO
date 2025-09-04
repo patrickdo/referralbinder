@@ -15,9 +15,11 @@
         b) https://patrickdo.github.io/referralbinder/
 
 script.js
-    faster addProtocols()?
 
 CSV files: 
+    [] take CSV directly from https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/export?format=csv
+        - 2025-09-03: got this link from ben collins, not sure if it works
+            https://ckarchive.com/b/k0umh6h5dvq3wu6n33wn4aovpz777t8
 	[-] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
         test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
         8/16/24 Melody said no
