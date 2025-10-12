@@ -91,8 +91,8 @@ GENITALS, SCROTUM, TESTICLES;US Scrotum;Scrotal or Testicular Mass, Scrotal or T
 HEAD, BRAIN, ARTERIAL, VASCULAR;MR Angio Head Venous wo Con (MRV);Dural Venous Sinus Thrombosis or Stenosis, Cerebrovascular Disease, Idiopathic Intracranial Hypertension, Positional Headache, Headache/Migraine with family history of Aneurysm, Papilledema, Vascular malformation;70544
 HEAD, BRAIN, NECK, ORBIT;MR Orb/Face/Neck wo Con;Grave's Disease, Trauma;70540
 HEAD, BRAIN, NECK, ORBIT;MR Orb/Face/Neck wo+w Con;Infection, Pain, Tumor, Mass, Cancer, Mets, Vocal Cord Paralysis, Parotid Gland, Exophthalmos, Proptosis, Pseudotumor, Vascular Lesions, Optic Neuritis, Graves Disease, Exophthalmos, Proptosis, bulging eye;70543
-HEAD, BRAIN, ORBIT;CT Orbit/Sella/Posterior Fossa w Con;Pseudotumor Mass, Exophthalmos Pain, Abscess, Graves Disease, Cellulitis, Swelling;70481
-HEAD, BRAIN, ORBIT;CT Orbit/Sella/Posterior Fossa wo Con;Hearing Loss, Cholesteatoma, Congenital Inner Ear Anomaly, Foreign Body, Bony Abnormalities, Preop Cochlear Implant, Trauma;70480
+HEAD, BRAIN, ORBIT, TEMPORAL;CT Orbit/Sella/Posterior Fossa w Con;Pseudotumor Mass, Exophthalmos Pain, Abscess, Graves Disease, Cellulitis, Swelling;70481
+HEAD, BRAIN, ORBIT, TEMPORAL;CT Orbit/Sella/Posterior Fossa wo Con;Hearing Loss, Cholesteatoma, Congenital Inner Ear Anomaly, Foreign Body, Bony Abnormalities, Preop Cochlear Implant, Trauma;70480
 HEAD, BRAIN;CT Angio Head wo+w Con;Stroke, Suspected Aneurysm with Headache, Aneurysm Follow Up, Vascular Malformation, Vascular Injury, Congenital Abnormalities, Vasculitis or Vasculopathy, Dural Venous Sinus Thrombosis;70496
 HEAD, BRAIN;MR PIT/POS FOS w+wo Con;Pituitary Adenoma, Sellar Mass, Suprasellar Mass, Amenorrhea, Galactorrhea, Visual Field Defects, Delayed Puberty, Abnormal Growth Rate, Elevated Prolactin, Hyperprolactinemia, Pituitary Lesion;70553
 HEAD, FACE;MR TMJ Uni or Bil;Internal TMJ derangement, Clicking in Mandibular Joints, Facial Pain, Decreased range of motion, Jaw Locking, Avascular Necrosis;70336

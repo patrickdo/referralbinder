@@ -30,9 +30,10 @@ ABDOMEN;MR MRCP wo Con;MRCP (Biliary and Pancreatic Ducts), Choledocholithiasis,
 ABDOMEN;US Abdomen Complete;Abdominal Pain, Epigastric Pain, Abnormal Liver Function Tests, Liver Mass, Hepatitis, Cirrhosis, Splenomegaly, Ascites;76700
 ABDOMEN;XR Abdomen AP + Decub + Erect 3 Views<br>XR Abdomen AP + Decub or Erect 2 Views;AP included decubitus and/or erect views;74020
 ABDOMEN;XR Abdomen AP Oblique Cone;AP and oblique and coned views;74019
-ABDOMINAL AORTA SCREENING;US AAA Screening;Screening Study for Abdominal Aorta Aneurysm (AAA);76706
+ABDOMINAL AORTA SCREENING;US AAA Screening;Screening Study for Abdominal Aorta Aneurysm (AAA), Asymptomatic patient;76706
+ABDOMINAL DOPPLER;US Abd,Pel,Renal,Scrot Art,Ven Dup Com;Abdomen Vascular Evaluation, TIPS shunts patency, Evaluation of Hepatoportal Venous System (Arterial Inflow or Venous Outflow);93975
 ACROMIOCLAVICULAR JOINTS;XR AC Jnts Wo or W Weights;Bilateral;73050
-AORTA ONLY (NON-SCREENING);US Retroperitoneal Ltd;Known or suspected Abdominal Aortic Aneurysm, R/O AAA, Follow Up AAA, Abdominal Bruit, Pulsatile, Abdominal Mass;76775
+AORTA ONLY (NON-SCREENING);US Retroperitoneal Ltd;Known Abdominal Aorta Aneurysm (AAA) Follow Up, Symptomatic of AAA (e.g., abdominal bruit, pulsatile, abdominal mass);76775
 ARTHROGRAPHY, EXTREMITY;<u>Order specific body part</u>:<br>MR Shoulder w Con Lt<br>MR Shoulder w Con Rt<br>MR Elbow w Con Lt<br>MR Elbow w Con Rt<br>MR Wrist w Con Lt<br>MR Wrist w Con Rt<br>MR Hip w Con Lt<br>MR Hip w Con Rt<br>MR Knee w Con Lt<br>MR Knee w Con Rt.<br><br><u>Must order injection procedure code and fluoroscopy study as well.</u><br>XR Guide NDL Fluor Plc Asp/Inj Joint<br><br><i>(Exams are intra-articular contrast injections)</i>;Postoperative Rotator Cuff or Labral evaluation of Shoulder, Inconclusive conventional MRI for loose bodies in Elbow, Inconclusive conventional MRI for TFCC (triangular fibrocartilage complex) tear of Wrist, Inconclusive Meniscus Evaluation, Postoperative Hip or Inconclusive conventional MRI Hip done previously;MR Lower 73722<br><br>MR Upper 73222<br><br>Fluoro 77002<br><br>Inj 23350
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Ankle Lt<br>XR Arthrogram Ankle Rt;Ankle;73615
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Elbow Lt<br>XR Arthrogram Elbow Rt;Elbow;73085
@@ -40,7 +41,7 @@ ARTHROGRAPHY, EXTREMITY;XR Arthrogram Hip Bil<br>XR Arthrogram Hip Lt<br>XR Arth
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Knee Bil<br>XR Arthrogram Knee Lt<br>XR Arthrogram Knee Rt;Knee;73580
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Wrist Lt<br>XR Arthrogram Wrist Rt;Wrist;73115
 ARTHROGRAPHY, SHOULDER;XR Arthrogram Shoulder Bil<br>XR Arthrogram Shoulder Lt<br>XR Arthrogram Shoulder Rt;Shoulder;73040
-AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Axillary Lump (Under the Age of 30), Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis;76882
+AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Axillary Lump (Under the Age of 30), Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis, Pseudoaneurysm, Buttock Lump;76882
 BLADDER ONLY;US Retroperitoneal Ltd;Post Void Residual;76775
 BONE, DEXA;XR Bone Density - Axial;Osteoporosis, Osteopenia, Disorders of Bone Density and Structure;77080
 BONE, DEXA;XR Bone Density DXA Axial w VertFx Asmt;Vertebral Fracture;77085
@@ -50,7 +51,7 @@ BREAST BIOPSY;MR Bx Breast 1st Lesion Lt - MRS<br>MR Bx Breast 1st Lesion Rt - M
 BREAST;MR Breast wo Con Bil - MRS;Implant Rupture, Implant Evaluation;77047
 BREAST;MR Breast wo+w Con Bil - MRS;Abnormal Mammogram, Abnormal Ultrasound, Dense Breast High Risk, Mass, Lesion, Cancer, Palpable Mass, Implant rupture;77049
 CAROTIDS, ARTERIES;US Vasc Dplx Extracran Art Bilat Comp;Carotid Stenosis, Dizziness, TIA, Stroke or CVA, Amaurosis Fugax, Carotid Bruit, Atherosclerosis, Syncope;93880
-CHEST WALL, UPPER BACK;US Upper Back Soft Tissue;Lump, Soft Tissue Mass;76604
+CHEST WALL, UPPER BACK;US Upper Back Soft Tissue;Lump (non breast), Soft Tissue Mass for Chest or Upper Back;76604
 CHEST, ABDOMEN, PELVIS;CT Angio Chest+Abd+Pelvis w Con;DaVinci Mitral Valve Replacement, Aortic Dissection, Aortic Aneurysm, Mesenteric Renal Artery Stenosis or Aneurysm;71275<br>74174
 CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis w Con;Cancer Staging, Unexplained Weight Loss;71260<br>74177
 CHEST, ABDOMEN, PELVIS;CT Chest+Abdomen+Pelvis wo Con;Patients unable to have Contrast<br>Cancer Staging, Unexplained Weight Loss;71250<br>74176
@@ -86,8 +87,6 @@ FACE, HEAD;CT Maxillofacial w Con;Infection, Swelling, Mass in Face, Tumor, Absc
 FACE, HEAD;CT Maxillofacial wo Con;Trauma, Facial Fracture, Nasal Fracture, Pain, Bony Abnormalities;70486
 FACIAL BONES;XR Facial Bones 1-2 Views;Less than 3 views;70140
 FACIAL BONES;XR Facial Bones 3+ Views;Complete, 3 views or more;70150
-GENITALS, PENILE;US Pelvic non OB ltd or Follow Up;Erectile Dysfunction, Peyronie's Disease, Urethral Stones;76857
-GENITALS, SCROTUM, TESTICLES;US Scrotum;Scrotal or Testicular Mass, Scrotal or Testicular Pain or Torsion, Scrotal Swelling;76870
 HEAD, BRAIN, ARTERIAL, VASCULAR;MR Angio Head Venous wo Con (MRV);Dural Venous Sinus Thrombosis or Stenosis, Cerebrovascular Disease, Idiopathic Intracranial Hypertension, Positional Headache, Headache/Migraine with family history of Aneurysm, Papilledema, Vascular malformation;70544
 HEAD, BRAIN, NECK, ORBIT;MR Orb/Face/Neck wo Con;Grave's Disease, Trauma;70540
 HEAD, BRAIN, NECK, ORBIT;MR Orb/Face/Neck wo+w Con;Infection, Pain, Tumor, Mass, Cancer, Mets, Vocal Cord Paralysis, Parotid Gland, Exophthalmos, Proptosis, Pseudotumor, Vascular Lesions, Optic Neuritis, Graves Disease, Exophthalmos, Proptosis, bulging eye;70543
@@ -112,7 +111,9 @@ HIP, PELVIS;XR Hip w Pelvis 3-4 Views Bil;3-4 views, Bilateral with Pelvis when 
 HIP, PELVIS;XR Hip w Pelvis 4+ Views Lt<br>XR Hip w Pelvis 4+ Views Rt;4 views, Unilateral with Pelvis when performed;73503
 HIP, PELVIS;XR Hip w Pelvis 5+ Views Bilat;5 views, Bilateral with Pelvis when performed;73523
 INFANT ABDOMEN;US Abdomen Limited;Failure to Gain Weight, Nonbilious Vomiting, Pyloric Stenosis;76705
+INFANT BRAIN;US Encephalogram;Abnormal Head Circumference , Venticulomegaly / Hydrocephalus, Hemorrhage or Parenchymal Abnormalities;76506
 INFANT HIPS;US Infant Hips Dynamic;Clicking, Dislocation, Laxity, Breech birth;76885
+INFANT SPINE;US Spinal Canal+Content;Assessing Spinal Abnormalities in Infant , Sacral Dimples , Hair Tufts, or Skin Tags;76800
 INTERVENTIONAL RADIOLOGY (IR);US Inj Sclerosing Sol Multi Inj Same Vn;Sclerotherapy after Vein Consult;36471
 INTERVENTIONAL RADIOLOGY (IR);XR Ablation RF Extrem Vein 1st;RFA Procedure after Vein Consult;36475
 INTERVENTIONAL RADIOLOGY (IR);XR Endoven therapy adhesive 1st;Venaseal Procedure after Vein Consult;36482
@@ -157,7 +158,7 @@ OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;US Preg Nuchal Transl 1st;Fetal Abn
 OB FIRST TRIMESTER PREGNANCY INCLUDING TRANSVAGINAL;US Preg <14 Wks Sngl/1st Gest<br>US Preg <14 Wks/Transvag;Less Than 14 weeks, Pregnancy for: First Trimester, Pregnancy Viability and Dating, First Trimester Bleeding, First Trimester Pregnancy with Pain or Bleeding, Ectopic Pregnancy;76801, if with transvag add 76817
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg 1 or > Fetuses Ltd;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI);76815
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg Follow Up per Gest;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI), Estimated Fetal Weight, Interval Growth, Re-eval of Organ (Prior Scan), Size vs Dating Discrepancy;76816
-OB, OBSTETRICAL ASSESSMENT, OB FETAL ANATOMY ASSESSMENT, Detailed;US Preg =>14 Wks Sgl or 1st Gest<br>US Preg+Detail Sngl or 1st Gest;Greater than 14 weeks 2nd or 3rd Trimester, 18-22 weeks OB scan for: Fetal Anatomic Survey (FAS);<u>US Preg >= 14 Wks</u><br>76805<br><br><u>US Preg+Detail</u><br>76811
+OB, OBSTETRICAL ASSESSMENT, OB FETAL ANATOMY ASSESSMENT, Detailed;US Preg =>14 Wks Sgl or 1st Gest;Greater than 14 weeks 2nd or 3rd Trimester, 18-22 weeks OB Screening for: Fetal Anatomic Survey (FAS);<u>US Preg >= 14 Wks</u><br>76805<br>
 ORBITS, OPTIC;XR Optic Foramina;;70190
 ORBITS;XR Orbits 4+ Views;Complete, 4 views or more;70200
 PELVIS - FEMALE;US Pelvic Non OB w Trans Vag;Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856, if with transvag add 76830
@@ -175,6 +176,7 @@ PELVIS;MR Pelvis wo Con;Fracture, Muscle Tear, Tendon Tear, Sports Hernia, Lower
 PELVIS;MR Pelvis wo+w Con;Uterine Fibroids, Adenomyosis, Endometrioma, Staging or Follow Up of Uterine Cancer, Endometrial Cancer or Cervical Cancer, Ovarian Adnexal Mass or Cyst, Vaginal Cyst, Vaginal Mass, Abnormal or indeterminate CT or Ultrasound Findings, Mullerian Duct Anomaly, Urethral Diverticulum, Bladder Mass, Prostate Cancer With Clinically Suspected Extracapsular or Invasive Disease, Rectal Cancer, Anal Cancer Staging or Follow Up, Perirectal Perianal Fistula or Abscess, Osteomyelitis, Septic Arthritis, Tumor, Mets, Decubitus Ulcer;72197
 PELVIS;MR Prostate wo+w Con;Elevated PSA, Prostate Cancer;72197
 PELVIS;XR Pelvis 1-2 Views;1-2 views;72170
+PENILE;US Pelvic non OB ltd or Follow Up;Erectile Dysfunction, Peyronie's Disease, Urethral Stones;76857
 PET, BRAIN;PET/CT Brain Metabolic Evaluation;Metabolic Evaluation, Seizure Evaluation, Alzheimer's Disease, Frontotemporal Dementia;78608
 PET, HEART, CARDIAC;PET Myocard Metabolic Sarcoidosis DHAI;Inflammation, Cardiac Sarcoidosis;78459
 PET, HEART, CARDIAC;PET Myocard Metabolic Viability DHAI;Evaluate Myocardial Viability;78459
@@ -183,7 +185,7 @@ PET, NETSPOT;PET/CT Skull to Mid Thigh NETSPOT<br>Ga-68 Dotatate A9587x54;Well D
 PET, PSMA;PET/CT Skull to Mid Thigh F-18 PSMA<br>Pylarify A9595x9;Prostate Cancer;78815
 PET, SKULL TO MID THIGH;PET/CT Tumor Skull Mid-Thigh Initial<br>PET/CT Tumor Skull - Mid Thigh Subsequent<br>FDG Dose A9552;Malignancy vs Benign Malignancy Staging/Restaging, Differentiating Recurrent or Residual Disease from Therapy Induced Changes, Monitoring the Response to Therapy;78815
 PET, WHOLE BODY;PET/CT Whole Body Initial<br>PET/CT Whole Body Subsequent<br>FDG Dose A9552;Melanoma Sarcoma, Multiple Myeloma, Merkel Cell Carcinoma, Osteosarcoma;78816
-RENAL ARTERIES;US Vasc Dplx Ab/Pel/Ret Comp;Renovascular Hypertension, Renal Artery Stenosis, Severe Hypertension, Eval TIPS Placement;93975
+RENAL ARTERIES;US Vasc Dplx Ab/Pel/Ret Comp;Renovascular Hypertension, Renal Artery Stenosis, Severe Hypertension;93975
 RETROPERITONEUM KIDNEYS, BLADDER, AORTA, SVC, IVC, NODES;US Retroperitoneal Complete;Renal Mass, UTI, Renal Insufficiency or Failure, Renal Colic or Flank Pain, Bladder Mass, Hematuria, Cystitis, Kidneys and Bladder;76770
 RIBS;XR Ribs 2 Views Lt<br>XR Ribs 2 Views Rt;Unilateral, 2 views;71100
 RIBS;XR Ribs 3 Views Bil;Bilateral, 3 views;71110
@@ -193,6 +195,7 @@ SACROILIAC JOINTS;XR SI Jnts 3+ Views;3 views or more;72200
 SACRUM, COCCYX;XR Sacrum+Coccyx 2+ Views;2 views or more;72220
 SALIVARY GLAND;XR Salivary Gland;Check for calculus;70380
 SCAPULA;XR Scapula Complete Bil<br>XR Scapula Complete Lt<br>XR Scapula Complete Rt;Complete;73010
+SCROTUM, TESTICLES;US Scrotum;Scrotal or Testicular Mass, Scrotal or Testicular Pain or Torsion, Scrotal Swelling;76870
 SHOULDER;XR Shoulder 2+ Views Bil<br>XR Shoulder 2+ Views Lt<br>XR Shoulder 2+ Views Rt;Minimum 2 views;73030
 SINUS, HEAD;CT Sinus wo Con;Sinusitis, Sinonasal Polyposis, Pre or Post-surgical Evaluation;70486
 SINUSES;XR Sinuses 3+ Views;Complete, 3 views or more;70220
@@ -252,5 +255,3 @@ UPPER EXTREMITY;XR Humerus 2+ Views Bil<br>XR Humerus 2+ Views Lt<br>XR Humerus 
 UPPER EXTREMITY;XR Wrist 2 Views Bil<br>XR Wrist 2 Views Lt<br>XR Wrist 2 Views Rt;2 views;73100
 UPPER EXTREMITY;XR Wrist 3+ Views Bil<br>XR Wrist 3+ Views Lt<br>XR Wrist 3+ Views Rt;3 views or more;73110
 UPPER EXTREMITY, VASCULAR;US Vasc Dplx Ven Upp Ext Bil<br>US Vasc Dplx Ven Upp Ext Lt<br>US Vasc Dplx Ven Upp Ext Rt;DVT, Arm Swelling, Pulmonary Embolism, Elevated D-Dimer;93970 Bil<br>93971 Uni
-VASCULAR;US Abd,Pel,Renal,Scrot Art,Ven Dup Com;Evaluation of Hepatoportal Venous System (Arterial Inflow, Venous Outflow);93975
-VASCULAR;US Abd,Pel,Renal,Scrotal Art,Ven Dup Ltd;Partial Evaluation of Hepatoportal Venous System (Arterial Inflow or Venous Outflow);93976

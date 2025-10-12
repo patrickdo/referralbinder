@@ -1,4 +1,4 @@
-3/23/25 and 1/17/2025 workflow:
+2025-01-17 -- 2025-10-11 workflow:
     1) Open Melody's GSheet and copy/paste entire contents into Excel. 
         a) https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/edit?gid=1407101405#gid=1407101405
     2) File - Options - Advanced - Editing Options
@@ -17,9 +17,10 @@
 script.js
 
 CSV files: 
-    [] take CSV directly from https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/export?format=csv
+    [-] take CSV directly from https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/export?format=csv
         - 2025-09-03: got this link from ben collins, not sure if it works
             https://ckarchive.com/b/k0umh6h5dvq3wu6n33wn4aovpz777t8
+        - this results in a CORS Error - will not work since sheet is not public
 	[-] take csv directly from https://docs.google.com/spreadsheets/d/1pjGSC_8b4dRaIiNHVENrclBaNXRkjd5mjbs3U_buQuA/gviz/tq?tqx=out:csv
         test: 15ErUgqhEoZipXGpSKTnAeBwihxGfWi8ncQu8an4eIVw
         8/16/24 Melody said no

@@ -16,7 +16,7 @@ const protocolList = new List('protocolDIV', options);
 async function loadProtocols() {
     try {
         // Use the modern `fetch` to get the file.
-        const response = await fetch('https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/export?format=csv');
+        const response = await fetch('DHAI_Referral_Guide.csv');
 
         // Check if the file was found and the request was successful.
         if (!response.ok) {
