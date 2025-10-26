@@ -1,4 +1,4 @@
-﻿"sep=;";;;
+"sep=;";;;
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 <u>BREAST</u>:<br>AUTOMATED BREAST ULTRASOUND/ABUS (AGE: 30 OR GREATER);US Screening Auto Whole Breast Bil -MRS<br>US Screening Auto Whole Breast Lt -MRS<br>US Screening Auto Whole Breast Rt -MRS;Dense Breasts diagnosed at Screening Mammogram;AWBUS<br><i>(Always ordered bilaterally)</i>
 <u>BREAST</u>:<br>DIAGNOSTIC MAMMOGRAM AND TARGETED BREAST ULTRASOUND OF THE AFFECTED SIDE (AGE: 30 OR GREATER);MA Mammo Diag w Tomo Bil - MRS<br>MA Mammo Diag w Tomo Implt Bil - MRS<br>MA Mammo Diag w Tomo Implt Lt - MRS<br>MA Mammo Diag w Tomo Implt Rt - MRS<br>MA Mammo Diag w Tomo Lt - MRS<br>MA Mammo Diag w Tomo Rt - MRS<br>US Breast Ltd Lt - MRS<br>US Breast Ltd Rt - MRS<br>US Breast Ltd Bilat - MRS;Focal Pain or Focal Abnormality;<u>3D/Tomo Mammo</u> 77061 unilat<br><br>77062 bilat<br><br><u>Ultrasound</u> 76642 Unilat/Bilat
@@ -67,7 +67,7 @@ CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Ef
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow Up, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term follow up (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
-CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
+CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ? 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
 CHEST, STERNOCLAVICULAR, SC JOINT;CT Chest wo Con;Fracture, Nonunion, Malunion;71250
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275
@@ -232,8 +232,6 @@ SPINE, THORACIC;XR T Spine 3 Views;3 views;72072
 SPINE, THORACIC;XR T Spine 4+ Views;4 views or more;72074
 STERNOCLAVICULAR JOINTS;XR Sternoclavicular Jnts 3+ Views;Unilateral or bilateral, minimum 3 views;71130
 STERNUM;XR Sternum 2+ Views;Minimum 2 views;71120
-TEMPORAL, HEAD;CT Temporal Bones w Con;Pulsatile Tinnitus, Glomus Tumor, Sensorineural Hearing Loss;70481
-TEMPORAL, HEAD;CT Temporal Bones wo Con;Cholesteatoma, Hearing Loss, Trauma, Mastoiditis, Otitis Media, Tinnitus, Retrotympanic mass, Otalgia, Ossicular Prosthesis eval, Cochlear Implant eval;70480
 TEMPOROMANDIBULAR JOINT;XR TMJ Lt<br>XR TMJ Rt<br>XR TMJ Bil;;70328 Uni<br>70330 Bil
 UPPER EXTREMITY;<u>Order specific body part</u>:<br>CT Hand w Con Lt<br>CT Hand w Con Rt<br>CT Wrist w Con Lt<br>CT Wrist w Con Rt<br>CT Forearm w Con Lt<br>CT Forearm w Con Rt<br>CT Elbow w Con Lt<br>CT Elbow w Con Rt<br>CT Humerus w Con Lt<br>CT Humerus w Con Rt<br>CT Shoulder w Con Lt<br>CT Shoulder w Con Rt;Infection, Tumor, Mass, Cancer, Mets;73201
 UPPER EXTREMITY;<u>Order specific body part</u>:<br>CT Hand wo Con Lt<br>CT Hand wo Con Rt<br>CT Wrist wo Con Lt<br>CT Wrist wo Con Rt<br>CT Forearm wo Con Lt<br>CT Forearm wo Con Rt<br>CT Elbow wo Con Lt<br>CT Elbow wo Con Rt<br>CT Humerus wo Con Lt<br>CT Humerus wo Con Rt<br>CT Shoulder wo Con Lt<br>CT Shoulder wo Con Rt;Fracture, Fusion, Nonunion, Malunion;73200

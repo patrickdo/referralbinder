@@ -143,6 +143,7 @@ LOWER EXTREMITY;XR Tibia+Fibula 2 Views Bil<br>XR Tibia+Fibula 2 Views Lt<br>XR 
 LOWER EXTREMITY;XR Toe 2+ Views Bil<br>XR Toe 2+ Views Lt<br>XR Toe 2+ Views Rt;Minimum 2 views;73660
 LOWER EXTREMITY, VENOUS, VASCULAR;US Vasc Dplx Ven Low Ext Bil Insuff<br>US Vasc Dplx Ven Low Ext Lt Insuff<br>US Vasc Dplx Ven Low Ext RT Insuff;Venous Insufficiency;93970 Bil<br>93971 Uni
 LOWER EXTREMITY, VASCULAR;US Vasc Dplx Ven Low Ext Bil<br>US Vasc Dplx Ven Low Ext Lt<br>US Vasc Dplx Ven Low Ext Rt;DVT, Leg Swelling, Pulmonary Embolism, Elevated D-Dimer;93970 Bil<br>93971 Uni
+MSK EXTREMITY, EXTREMITIES;US Extrem Non Vasc Comp Lt<br>US Extrem Non Vasc Comp Rt;Tendon tears, or tendonitis of the rotator cuff in the shoulder, Achilles tendon in the ankle and other tendons throughout the body, Muscle tears, Ligament sprains or tears, Nerve entrapments such as carpal tunnel syndrome;76881
 MANDIBLE;XR Mandible 1-3 Views;Partial, less than 4 views;70100
 MANDIBLE;XR Mandible 4+ Views;Complete, 4 views or more;70110
 NASAL BONES;XR Nasal Bones 3+ Views;3 views or more;70160
