@@ -1,4 +1,4 @@
-2025-01-17 -- 2025-10-11 workflow:
+2025-01-17 -- 2025-10-25 workflow:
     1) Open Melody's GSheet and copy/paste entire contents into Excel. 
         a) https://docs.google.com/spreadsheets/d/1Wnz4zIbEXtUZUYQLiCw4H3M0yul581o0XxGtDisgKnc/edit?gid=1407101405#gid=1407101405
     2) File - Options - Advanced - Editing Options
@@ -6,9 +6,9 @@
         b) Decimal separator: ,
         c) Thousands separator: .
     3) Save as csv
-    4) Copy into project folder, rename to DHAI_Referral_Guide.csv
     5) Open Github for Desktop
     6) Open the repository in your external editor (VS Code)
+    4) Copy csv into project folder, rename to DHAI_Referral_Guide.csv
     7) Save/Commit the files
     8) Sync Changes so they are available on the internet and not just my local PC
         a) check status of publication to gh-pages here: https://github.com/patrickdo/referralbinder
