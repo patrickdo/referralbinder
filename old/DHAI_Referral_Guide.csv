@@ -155,7 +155,7 @@ NECK;CT Soft Tissue Neck wo Con;Salivary Gland Stone, Parotid Stone;70490
 NECK;CT Soft Tissue Neck wo+w Con;Submandibular Stone, Parotid Stone with Associated Infection/Inflammation, Parathyroid Adenoma;70492
 NECK;MR Angio Neck wo+w Con;Carotid Stenosis, Stroke, Vertebrobasilar Insufficiency, Fibromuscular Dysplasia, Peripheral Vascular Disease, Sudden or Transient Visual Loss, SSS (subclavian steal syndrome);70549
 NECK;XR Neck Soft Tissue;Soft Tissue;70360
-OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;US Preg Nuchal Transl 1st;Fetal Abnormalities, Exam to be performed at Fetal Age between 11.2-14.2 Weeks;76813
+OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;US Preg Nuchal Transl 1st;Fetal Abnormalities, Exam to be performed at Fetal Age between 11 weeks to 13 weeks 6 days;76813
 OB FIRST TRIMESTER PREGNANCY INCLUDING TRANSVAGINAL;US Preg <14 Wks Sngl/1st Gest<br>US Preg <14 Wks/Transvag;Less Than 14 weeks, Pregnancy for: First Trimester, Pregnancy Viability and Dating, First Trimester Bleeding, First Trimester Pregnancy with Pain or Bleeding, Ectopic Pregnancy;76801, if with transvag add 76817
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg 1 or > Fetuses Ltd;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI);76815
 OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg Follow Up per Gest;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI), Estimated Fetal Weight, Interval Growth, Re-eval of Organ (Prior Scan), Size vs Dating Discrepancy;76816
