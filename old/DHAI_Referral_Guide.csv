@@ -1,4 +1,4 @@
-"sep=;";;;
+﻿"sep=;";;;
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 <u>BREAST</u>:<br>AUTOMATED BREAST ULTRASOUND/ABUS (AGE: 30 OR GREATER);US Screening Auto Whole Breast Bil -MRS<br>US Screening Auto Whole Breast Lt -MRS<br>US Screening Auto Whole Breast Rt -MRS;Dense Breasts diagnosed at Screening Mammogram;AWBUS<br><i>(Always ordered bilaterally)</i>
 <u>BREAST</u>:<br>DIAGNOSTIC MAMMOGRAM AND TARGETED BREAST ULTRASOUND OF THE AFFECTED SIDE (AGE: 30 OR GREATER);MA Mammo Diag w Tomo Bil - MRS<br>MA Mammo Diag w Tomo Implt Bil - MRS<br>MA Mammo Diag w Tomo Implt Lt - MRS<br>MA Mammo Diag w Tomo Implt Rt - MRS<br>MA Mammo Diag w Tomo Lt - MRS<br>MA Mammo Diag w Tomo Rt - MRS<br>US Breast Ltd Lt - MRS<br>US Breast Ltd Rt - MRS<br>US Breast Ltd Bilat - MRS;Focal Pain or Focal Abnormality;<u>3D/Tomo Mammo</u> 77061 unilat<br><br>77062 bilat<br><br><u>Ultrasound</u> 76642 Unilat/Bilat
@@ -41,7 +41,7 @@ ARTHROGRAPHY, EXTREMITY;XR Arthrogram Hip Bil<br>XR Arthrogram Hip Lt<br>XR Arth
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Knee Bil<br>XR Arthrogram Knee Lt<br>XR Arthrogram Knee Rt;Knee;73580
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Wrist Lt<br>XR Arthrogram Wrist Rt;Wrist;73115
 ARTHROGRAPHY, SHOULDER;XR Arthrogram Shoulder Bil<br>XR Arthrogram Shoulder Lt<br>XR Arthrogram Shoulder Rt;Shoulder;73040
-AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Axillary Lump (Under the Age of 30), Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis, Pseudoaneurysm, Buttock Lump;76882
+AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Any age male axillary symptom. Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis, Buttock Lump;76882
 BLADDER ONLY;US Retroperitoneal Ltd;Post Void Residual;76775
 BONE, DEXA;XR Bone Density - Axial;Osteoporosis, Osteopenia, Disorders of Bone Density and Structure;77080
 BONE, DEXA;XR Bone Density DXA Axial w VertFx Asmt;Vertebral Fracture;77085
@@ -67,7 +67,7 @@ CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Ef
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow Up, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term follow up (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
-CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ? 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
+CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
 CHEST, STERNOCLAVICULAR, SC JOINT;CT Chest wo Con;Fracture, Nonunion, Malunion;71250
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275
@@ -95,7 +95,7 @@ HEAD, BRAIN, ORBIT, TEMPORAL;CT Orbit/Sella/Posterior Fossa wo Con;Hearing Loss,
 HEAD, BRAIN;CT Angio Head wo+w Con;Stroke, Suspected Aneurysm with Headache, Aneurysm Follow Up, Vascular Malformation, Vascular Injury, Congenital Abnormalities, Vasculitis or Vasculopathy, Dural Venous Sinus Thrombosis;70496
 HEAD, BRAIN;MR PIT/POS FOS w+wo Con;Pituitary Adenoma, Sellar Mass, Suprasellar Mass, Amenorrhea, Galactorrhea, Visual Field Defects, Delayed Puberty, Abnormal Growth Rate, Elevated Prolactin, Hyperprolactinemia, Pituitary Lesion;70553
 HEAD, FACE;MR TMJ Uni or Bil;Internal TMJ derangement, Clicking in Mandibular Joints, Facial Pain, Decreased range of motion, Jaw Locking, Avascular Necrosis;70336
-HEAD, NECK;CT Angio Head+Neck w Contrast;Stroke, TIA, Carotid Stenosis, Sudden or Transient Visual Loss, Vertebrobasilar Insufficiency;70496<br>70498
+HEAD, NECK;CT Angio Head+Neck w Contrast;Stroke, TIA, Carotid Stenosis, Sudden or Transient Visual Loss, Vertebrobasilar Insufficiency;70471
 HEAD, TEMPORAL;MR IAC wo+w Con;Sensorineural Hearing Loss, Deafness, Acoustic Neuroma (vestibular schwannoma), Dizziness, Tinnitus, Vertigo, Bell's Palsy, Ramsay Hunt Syndrome, Hemifacial Spasm, Cranial Nerve Lesions, IAC (Internal Auditory Canal) Mass;70553
 HEAD;CT Head wo Con;Trauma, Headache, CVA, Stroke, Bleed, Alzheimer's, Memory Loss, Confusion, Facial Droop, TIA, Change in Mental Status, Loss of Balance, Syncope, Tinnitus, Vertigo, Dizziness, Shunt Check, Hydrocephalus;70450
 HEAD;CT Head wo+w Con;Metastatic Staging, Mass, Tumor, Infection, Abscess, Meningioma, HIV, Headache and Neurologic Sign;70470
@@ -164,7 +164,7 @@ ORBITS, OPTIC;XR Optic Foramina;;70190
 ORBITS;XR Orbits 4+ Views;Complete, 4 views or more;70200
 PELVIS - FEMALE;US Pelvic Non OB w Trans Vag;Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856, if with transvag add 76830
 PELVIS - FEMALE;US Pelvic Non OB;FOR PATIENTS DECLINING TRANSVAGINAL EXAM - Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856
-PELVIS - MALE;US Pelvic Non OB;Pelvic Pain, Urinary Bladder, Prostate, Seminal Vesicles, Pelvic Pathology;76856
+PELVIS - MALE;US Pelvic Non OB;Pelvic Pain, Urinary Bladder, Prostate (Transabdominal approach), Seminal Vesicles, Pelvic Pathology;76856
 PELVIS, CYSTOGRAM;CT Pelvis wo IV Con;Cystographic Contrast Only, Bladder Rupture, Bladder Repair, Bladder Fistula;72192
 PELVIS, CYSTOGRAM;CT Pelvis wo+w IV Con;Cystographic Contrast Only, Bladder Rupture, Bladder Repair, Bladder Fistula, Bladder Mass, Bladder Cancer;72194
 PELVIS;CT Angio Pelvis w Con;Pelvic Deep Vein Thrombosis, Specific Surgical Prep;72191
