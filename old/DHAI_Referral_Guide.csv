@@ -1,4 +1,4 @@
-﻿"sep=;";;;
+"sep=;";;;
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 <u>BREAST</u>:<br>AUTOMATED BREAST ULTRASOUND/ABUS (AGE: 30 OR GREATER);US Screening Auto Whole Breast Bil -MRS<br>US Screening Auto Whole Breast Lt -MRS<br>US Screening Auto Whole Breast Rt -MRS;Dense Breasts diagnosed at Screening Mammogram;AWBUS<br><i>(Always ordered bilaterally)</i>
 <u>BREAST</u>:<br>DIAGNOSTIC MAMMOGRAM AND TARGETED BREAST ULTRASOUND OF THE AFFECTED SIDE (AGE: 30 OR GREATER);MA Mammo Diag w Tomo Bil - MRS<br>MA Mammo Diag w Tomo Implt Bil - MRS<br>MA Mammo Diag w Tomo Implt Lt - MRS<br>MA Mammo Diag w Tomo Implt Rt - MRS<br>MA Mammo Diag w Tomo Lt - MRS<br>MA Mammo Diag w Tomo Rt - MRS<br>US Breast Ltd Lt - MRS<br>US Breast Ltd Rt - MRS<br>US Breast Ltd Bilat - MRS;Focal Pain or Focal Abnormality;<u>3D/Tomo Mammo</u> 77061 unilat<br><br>77062 bilat<br><br><u>Ultrasound</u> 76642 Unilat/Bilat
@@ -24,7 +24,7 @@ ABDOMEN;CT Abdomen w IV Con;Abdominal Pain, Abnormal Ultrasound, Neoplasm/Mass, 
 ABDOMEN;CT Abdomen wo IV Con;Renal Insufficiency patients, Cholelithiasis, Adrenal Tumor;74150
 ABDOMEN;CT Angio Abdomen w Con;Renal Artery Stenosis, Aneurysm;74175
 ABDOMEN;CT Angio Abdomen wo+w Con;Abdominal Aortic Dissection, Aneurysm, Renal Artery Stenosis, Abnormal Ultrasound, Mesenteric Ischemia, Status Post Aortic Stent Graft Placement;74175
-ABDOMEN;MR Abdomen wo+w Con;Adrenal Mass, Renal Mass, Liver Mass, Cirrhosis, Hemochromatosis, Pancreatic Mass, Painless Jaundice, Indeterminate Mass on CT or Ultrasound, Presurgical Evaluation, Post-embolization or Ablation Follow Up, Hematuria, Abdominal Pain, Tumor, Cancer, Mets;74183
+ABDOMEN;MR Abdomen wo+w Con;Adrenal Mass, Renal Mass, Liver Mass, Cirrhosis, Pancreatic Mass, Painless Jaundice, Indeterminate Mass on CT or Ultrasound, Presurgical Evaluation, Post-embolization or Ablation Follow Up, Hematuria, Abdominal Pain, Tumor, Cancer, Mets;74183
 ABDOMEN;MR Angio Abdomen w Runoff;Runoff MRA, Claudication, Lower Extremity pain, PAD (peripheral artery disease);C8900
 ABDOMEN;MR MRCP wo Con;MRCP (Biliary and Pancreatic Ducts), Choledocholithiasis, Biliary Tract Stone, Biliary Dilatation or Obstruction, Congenital Biliary Abnormality, Choledochal Cyst, Sclerosing Cholangitis, Primary Biliary Cirrhosis, Painless Jaundice, Pre-liver Transplant;74181
 ABDOMEN;US Abdomen Complete;Abdominal Pain, Epigastric Pain, Abnormal Liver Function Tests, Liver Mass, Hepatitis, Cirrhosis, Splenomegaly, Ascites;76700
@@ -67,7 +67,7 @@ CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Ef
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow Up, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term follow up (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
-CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
+CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ? 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
 CHEST, STERNOCLAVICULAR, SC JOINT;CT Chest wo Con;Fracture, Nonunion, Malunion;71250
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275
