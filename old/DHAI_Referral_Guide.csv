@@ -41,7 +41,7 @@ ARTHROGRAPHY, EXTREMITY;XR Arthrogram Hip Bil<br>XR Arthrogram Hip Lt<br>XR Arth
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Knee Bil<br>XR Arthrogram Knee Lt<br>XR Arthrogram Knee Rt;Knee;73580
 ARTHROGRAPHY, EXTREMITY;XR Arthrogram Wrist Lt<br>XR Arthrogram Wrist Rt;Wrist;73115
 ARTHROGRAPHY, SHOULDER;XR Arthrogram Shoulder Bil<br>XR Arthrogram Shoulder Lt<br>XR Arthrogram Shoulder Rt;Shoulder;73040
-AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Any age male axillary symptom. Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis, Buttock Lump;76882
+AXILLA, ARM PIT, EXTREMITY (NON BREAST);US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Any age male axillary symptom. Lymphadenopathy, Abscess, Cellulitis Lump, Extremity Mass, Swelling, Popliteal or Baker's Cyst, Bursitis;76882
 BLADDER ONLY;US Retroperitoneal Ltd;Post Void Residual;76775
 BONE, DEXA;XR Bone Density - Axial;Osteoporosis, Osteopenia, Disorders of Bone Density and Structure;77080
 BONE, DEXA;XR Bone Density DXA Axial w VertFx Asmt;Vertebral Fracture;77085
@@ -50,6 +50,7 @@ BRAIN, HEAD;MR Brain wo+w Con;Cranial Nerve Lesions, Dizziness, Vertigo, Headach
 BREAST BIOPSY;MR Bx Breast 1st Lesion Lt - MRS<br>MR Bx Breast 1st Lesion Rt - MRS;Mass, Lesion, Cancer, Mastopathy, Fibrocystic Breast Disease;19085
 BREAST;MR Breast wo Con Bil - MRS;Implant Rupture, Implant Evaluation;77047
 BREAST;MR Breast wo+w Con Bil - MRS;Abnormal Mammogram, Abnormal Ultrasound, Dense Breast High Risk, Mass, Lesion, Cancer, Palpable Mass, Implant rupture;77049
+BUTTOCK;US Pelvic non OB ltd or Follow Up;Palp or lump on buttock area;76857
 CAROTIDS, ARTERIES;US Vasc Dplx Extracran Art Bilat Comp;Carotid Stenosis, Dizziness, TIA, Stroke or CVA, Amaurosis Fugax, Carotid Bruit, Atherosclerosis, Syncope;93880
 CHEST WALL, UPPER BACK;US Upper Back Soft Tissue;Lump (non breast), Soft Tissue Mass for Chest or Upper Back;76604
 CHEST, ABDOMEN, PELVIS;CT Angio Chest+Abd+Pelvis w Con;DaVinci Mitral Valve Replacement, Aortic Dissection, Aortic Aneurysm, Mesenteric Renal Artery Stenosis or Aneurysm;71275<br>74174
@@ -177,7 +178,7 @@ PELVIS;MR Pelvis wo Con;Fracture, Muscle Tear, Tendon Tear, Sports Hernia, Lower
 PELVIS;MR Pelvis wo+w Con;Uterine Fibroids, Adenomyosis, Endometrioma, Staging or Follow Up of Uterine Cancer, Endometrial Cancer or Cervical Cancer, Ovarian Adnexal Mass or Cyst, Vaginal Cyst, Vaginal Mass, Abnormal or indeterminate CT or Ultrasound Findings, Mullerian Duct Anomaly, Urethral Diverticulum, Bladder Mass, Prostate Cancer With Clinically Suspected Extracapsular or Invasive Disease, Rectal Cancer, Anal Cancer Staging or Follow Up, Perirectal Perianal Fistula or Abscess, Osteomyelitis, Septic Arthritis, Tumor, Mets, Decubitus Ulcer;72197
 PELVIS;MR Prostate wo+w Con;Elevated PSA, Prostate Cancer;72197
 PELVIS;XR Pelvis 1-2 Views;1-2 views;72170
-PENILE;US Pelvic non OB ltd or Follow Up;Erectile Dysfunction, Peyronie's Disease, Urethral Stones;76857
+PENILE;US Pelvic non OB ltd or Follow Up;Suspected Peyronie's Disease , painful penile thickening/scar sometimes with deformity (bend or shortening);76857
 PET, BRAIN;PET/CT Brain Metabolic Evaluation;Metabolic Evaluation, Seizure Evaluation, Alzheimer's Disease, Frontotemporal Dementia;78608
 PET, HEART, CARDIAC;PET Myocard Metabolic Sarcoidosis DHAI;Inflammation, Cardiac Sarcoidosis;78459
 PET, HEART, CARDIAC;PET Myocard Metabolic Viability DHAI;Evaluate Myocardial Viability;78459
