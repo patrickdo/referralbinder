@@ -1,4 +1,4 @@
-"sep=;";;;
+﻿"sep=;";;;
 Body Region;Procedure (Order As);Reason for Exam;CPT Code
 <u>BREAST</u>:<br>AUTOMATED BREAST ULTRASOUND/ABUS (AGE: 30 OR GREATER);US Screening Auto Whole Breast Bil -MRS<br>US Screening Auto Whole Breast Lt -MRS<br>US Screening Auto Whole Breast Rt -MRS;Dense Breasts diagnosed at Screening Mammogram;AWBUS<br><i>(Always ordered bilaterally)</i>
 <u>BREAST</u>:<br>DIAGNOSTIC MAMMOGRAM AND TARGETED BREAST ULTRASOUND OF THE AFFECTED SIDE (AGE: 30 OR GREATER);MA Mammo Diag w Tomo Bil - MRS<br>MA Mammo Diag w Tomo Implt Bil - MRS<br>MA Mammo Diag w Tomo Implt Lt - MRS<br>MA Mammo Diag w Tomo Implt Rt - MRS<br>MA Mammo Diag w Tomo Lt - MRS<br>MA Mammo Diag w Tomo Rt - MRS<br>US Breast Ltd Lt - MRS<br>US Breast Ltd Rt - MRS<br>US Breast Ltd Bilat - MRS;Focal Pain or Focal Abnormality;<u>3D/Tomo Mammo</u> 77061 unilat<br><br>77062 bilat<br><br><u>Ultrasound</u> 76642 Unilat/Bilat
@@ -50,7 +50,7 @@ BRAIN, HEAD;MR Brain wo+w Con;Cranial Nerve Lesions, Dizziness, Vertigo, Headach
 BREAST BIOPSY;MR Bx Breast 1st Lesion Lt - MRS<br>MR Bx Breast 1st Lesion Rt - MRS;Mass, Lesion, Cancer, Mastopathy, Fibrocystic Breast Disease;19085
 BREAST;MR Breast wo Con Bil - MRS;Implant Rupture, Implant Evaluation;77047
 BREAST;MR Breast wo+w Con Bil - MRS;Abnormal Mammogram, Abnormal Ultrasound, Dense Breast High Risk, Mass, Lesion, Cancer, Palpable Mass, Implant rupture;77049
-BUTTOCK;US Pelvic non OB ltd or Follow Up;Palp or lump on buttock area;76857
+BUTTOCK;US Extrem Non Vasc Ltd Lt<br>US Extrem Non Vasc Ltd Rt;Palp or lump on buttock area;76882
 CAROTIDS, ARTERIES;US Vasc Dplx Extracran Art Bilat Comp;Carotid Stenosis, Dizziness, TIA, Stroke or CVA, Amaurosis Fugax, Carotid Bruit, Atherosclerosis, Syncope;93880
 CHEST WALL, UPPER BACK;US Upper Back Soft Tissue;Lump (non breast), Soft Tissue Mass for Chest or Upper Back;76604
 CHEST, ABDOMEN, PELVIS;CT Angio Chest+Abd+Pelvis w Con;DaVinci Mitral Valve Replacement, Aortic Dissection, Aortic Aneurysm, Mesenteric Renal Artery Stenosis or Aneurysm;71275<br>74174
@@ -68,7 +68,7 @@ CHEST, LUNG;CT Chest w Con;Cancer, Adenopathy, Pneumonia, Hemoptysis, Pleural Ef
 CHEST, LUNG;CT Chest wo Con (High Res);Interstitial Lung Disease, COPD, Bronchiectasis, Sarcoidosis Asbestosis, COVID Follow Up, Fibrosis, Emphysema;71250
 CHEST, LUNG;CT Chest wo Con Lung F/U;Short Term follow up (3-9 Months) for current Lung Screening patients;71250
 CHEST, LUNG;CT Chest wo Con;Lung Nodule with symptoms or known Cancer, Nonspecific Chest Pain or Dyspnea, Cancer (if patient cannot have IV Contrast), Pleural Effusion (Transudative), Thoracic Aortic Aneurysm, Chronic Cough;71250
-CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ? 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
+CHEST, LUNG;CT Lung Screening;"50-77 yrs old and ≥ 20 pack Yr Smoker and Quit Smoking < 15 yrs ago, Asymptomatic Only<br><a href=""https://drive.google.com/file/d/1RaVEp7DMsxDJrQlIp6FyPoWVRoAtbH9K/view?usp=drive_link"" target=""_blank"">CT Lung Screening Form</a>";71271
 CHEST, MEDIASTINUM;MR Chest wo+w Con;Thymic Lesion, Thymoma, Mediastinal Mass, Tumor, Cancer, Mets;71552
 CHEST, STERNOCLAVICULAR, SC JOINT;CT Chest wo Con;Fracture, Nonunion, Malunion;71250
 CHEST;CT Angio Chest PE Study;Chest Pain, Dyspnea, Hypoxia, Elevated D-Dimer, Known DVT with chest symptoms, Pulmonary Hypertension, Pulmonary Embolism (PE);71275

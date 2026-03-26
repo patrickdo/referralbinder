@@ -5,7 +5,7 @@
         a) Uncheck Use system separators
         b) Decimal separator: ,
         c) Thousands separator: .
-    3) Save as csv
+    3) Save as CSV (UTF-8)
     4) Open Github for Desktop
     5) Open the repository in your external editor (VS Code)
     6) Copy csv into project folder, rename to DHAI_Referral_Guide.csv
