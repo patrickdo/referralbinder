@@ -31,7 +31,7 @@ ABDOMEN;US Abdomen Complete;Abdominal Pain, Epigastric Pain, Abnormal Liver Func
 ABDOMEN;XR Abdomen AP + Decub + Erect 3 Views<br>XR Abdomen AP + Decub or Erect 2 Views;AP included decubitus and/or erect views;74020
 ABDOMEN;XR Abdomen AP Oblique Cone;AP and oblique and coned views;74019
 ABDOMINAL AORTA SCREENING;US AAA Screening;Screening Study for Abdominal Aorta Aneurysm (AAA), Asymptomatic patient;76706
-ABDOMINAL DOPPLER;US Abd,Pel,Renal,Scrot Art,Ven Dup Com;Abdomen Vascular Evaluation, TIPS shunts patency, Evaluation of Hepatoportal Venous System (Arterial Inflow or Venous Outflow);93975
+ABDOMINAL DOPPLER;US Vasc Dplx Ab/Pel/Ret Comp;Please indicate on order which Abdominal Vascular Evaluation we are to perform (TIPS Patency, Heptatoportal Venous system or Liver Transplant);93975
 ACROMIOCLAVICULAR JOINTS;XR AC Jnts Wo or W Weights;Bilateral;73050
 AORTA ONLY (NON-SCREENING);US Retroperitoneal Ltd;Known Abdominal Aorta Aneurysm (AAA) Follow Up, Symptomatic of AAA (e.g., abdominal bruit, pulsatile, abdominal mass);76775
 ARTHROGRAPHY, EXTREMITY;<u>Order specific body part</u>:<br>MR Shoulder w Con Lt<br>MR Shoulder w Con Rt<br>MR Elbow w Con Lt<br>MR Elbow w Con Rt<br>MR Wrist w Con Lt<br>MR Wrist w Con Rt<br>MR Hip w Con Lt<br>MR Hip w Con Rt<br>MR Knee w Con Lt<br>MR Knee w Con Rt.<br><br><u>Must order injection procedure code and fluoroscopy study as well.</u><br>XR Guide NDL Fluor Plc Asp/Inj Joint<br><br><i>(Exams are intra-articular contrast injections)</i>;Postoperative Rotator Cuff or Labral evaluation of Shoulder, Inconclusive conventional MRI for loose bodies in Elbow, Inconclusive conventional MRI for TFCC (triangular fibrocartilage complex) tear of Wrist, Inconclusive Meniscus Evaluation, Postoperative Hip or Inconclusive conventional MRI Hip done previously;MR Lower 73722<br><br>MR Upper 73222<br><br>Fluoro 77002<br><br>Inj 23350
@@ -112,7 +112,7 @@ HIP, PELVIS;XR Hip w Pelvis 3-4 Views Bil;3-4 views, Bilateral with Pelvis when 
 HIP, PELVIS;XR Hip w Pelvis 4+ Views Lt<br>XR Hip w Pelvis 4+ Views Rt;4 views, Unilateral with Pelvis when performed;73503
 HIP, PELVIS;XR Hip w Pelvis 5+ Views Bilat;5 views, Bilateral with Pelvis when performed;73523
 INFANT ABDOMEN;US Abdomen Limited;Failure to Gain Weight, Nonbilious Vomiting, Pyloric Stenosis;76705
-INFANT BRAIN;US Encephalogram;Abnormal Head Circumference , Venticulomegaly / Hydrocephalus, Hemorrhage or Parenchymal Abnormalities;76506
+INFANT BRAIN;US Encephalogram;Abnormal Head Circumference , Venticulomegaly / Hydrocephalus;76506
 INFANT HIPS;US Infant Hips Dynamic;Clicking, Dislocation, Laxity, Breech birth;76885
 INFANT SPINE;US Spinal Canal+Content;Assessing Spinal Abnormalities in Infant , Sacral Dimples , Hair Tufts, or Skin Tags;76800
 INTERVENTIONAL RADIOLOGY (IR);US Inj Sclerosing Sol Multi Inj Same Vn;Sclerotherapy after Vein Consult;36471
@@ -142,7 +142,7 @@ LOWER EXTREMITY;XR Knee 4+ Views Bil<br>XR Knee 4+ Views Lt<br>XR Knee 4+ Views 
 LOWER EXTREMITY;XR Knees Standing AP Bil;AP standing, bilateral;73565
 LOWER EXTREMITY;XR Tibia+Fibula 2 Views Bil<br>XR Tibia+Fibula 2 Views Lt<br>XR Tibia+Fibula 2 Views Rt;2 views;73590
 LOWER EXTREMITY;XR Toe 2+ Views Bil<br>XR Toe 2+ Views Lt<br>XR Toe 2+ Views Rt;Minimum 2 views;73660
-LOWER EXTREMITY, VENOUS, VASCULAR;US Vasc Dplx Ven Low Ext Bil Insuff<br>US Vasc Dplx Ven Low Ext Lt Insuff<br>US Vasc Dplx Ven Low Ext RT Insuff;Venous Insufficiency;93970 Bil<br>93971 Uni
+LOWER EXTREMITY, VENOUS, VASCULAR;US Vasc Dplx Ven Low Ext Bil Insuff<br>US Vasc Dplx Ven Low Ext Lt Insuff<br>US Vasc Dplx Ven Low Ext RT Insuff;Venous Insufficiency (NO DVT CONCERN);93970 Bil<br>93971 Uni
 LOWER EXTREMITY, VASCULAR;US Vasc Dplx Ven Low Ext Bil<br>US Vasc Dplx Ven Low Ext Lt<br>US Vasc Dplx Ven Low Ext Rt;DVT, Leg Swelling, Pulmonary Embolism, Elevated D-Dimer;93970 Bil<br>93971 Uni
 LOWER EXTREMITY, VASCULAR;US Vasc Pseudoaneurysm Low Ext Lt<br>US Vasc Pseudoaneurysm Low Ext Rt;Palp/pain after arterial puncture or trauma;93926
 MSK EXTREMITY, EXTREMITIES;US Extrem Non Vasc Comp Lt<br>US Extrem Non Vasc Comp Rt;Tendon tears, or tendonitis of the rotator cuff in the shoulder, Achilles tendon in the ankle and other tendons throughout the body, Muscle tears, Ligament sprains or tears, Nerve entrapments such as carpal tunnel syndrome;76881
@@ -158,14 +158,14 @@ NECK;CT Soft Tissue Neck wo+w Con;Submandibular Stone, Parotid Stone with Associ
 NECK;MR Angio Neck wo+w Con;Carotid Stenosis, Stroke, Vertebrobasilar Insufficiency, Fibromuscular Dysplasia, Peripheral Vascular Disease, Sudden or Transient Visual Loss, SSS (subclavian steal syndrome);70549
 NECK;XR Neck Soft Tissue;Soft Tissue;70360
 OB FIRST TRIMESTER FETAL NUCHAL TRANSLUCENCY;US Preg Nuchal Transl 1st;Fetal Abnormalities, Exam to be performed at Fetal Age between 11 weeks to 13 weeks 6 days;76813
-OB FIRST TRIMESTER PREGNANCY INCLUDING TRANSVAGINAL;US Preg <14 Wks Sngl/1st Gest<br>US Preg <14 Wks/Transvag;Less Than 14 weeks, Pregnancy for: First Trimester, Pregnancy Viability and Dating, First Trimester Bleeding, First Trimester Pregnancy with Pain or Bleeding, Ectopic Pregnancy;76801, if with transvag add 76817
-OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg 1 or > Fetuses Ltd;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI);76815
-OB SECOND OR THIRD TRIMESTER LIMITED OR FOLLOW-UP;US Preg Follow Up per Gest;Fetal Heart Rate, Placental Location, Fetal Position and Qualitative Amniotic Fluid Volume (AFI), Estimated Fetal Weight, Interval Growth, Re-eval of Organ (Prior Scan), Size vs Dating Discrepancy;76816
+OB FIRST TRIMESTER PREGNANCY (INCLUDES TRANSVAGINAL);US Preg <14 Wks/Transvag;Less Than 14 weeks, First Trimester, Viability/Dating, Bleeding/Pain, Ectopic Pregnancy;76801<br>76817
+OB SECOND OR THIRD TRIMESTER LIMITED;US Preg 1 or > Fetuses Ltd;No Prior ultrasound Available: Fetal Heart Rate, Placental Location, Fetal Position, Cervical/Cervix Length and Amniotic Fluid Volume (AFI) , Estimated Fetal Weight (EFW) / Dating.;76815
+OB SECOND OR THIRD TRIMESTER FOLLOW-UP;US Preg Follow Up per Gest;Reevaluation following a prior ultrasound, Including Fetal Heart Rate, Placental Location, Fetal Position and Amniotic Fluid Volume (AFI), Estimated Fetal Weight (EFW), Interval Growth, Re-eval of Organ (if indicated) Cervical/Cervix Length, Additional views needed after three weeks from prior scan<br>WHEN RE-EVALUATING LOW LYING PLACENTA AND OR CERVICAL LENGTH PLEASE INCLUDE AN ADDITIONAL ORDER FOR: US Preg Transvag;76816<br>76817 (If Transvag needed)
 OB, OBSTETRICAL ASSESSMENT, OB FETAL ANATOMY ASSESSMENT, Detailed;US Preg =>14 Wks Sgl or 1st Gest;Greater than 14 weeks 2nd or 3rd Trimester, 18-22 weeks OB Screening for: Fetal Anatomic Survey (FAS);<u>US Preg >= 14 Wks</u><br>76805<br>
 ORBITS, OPTIC;XR Optic Foramina;;70190
 ORBITS;XR Orbits 4+ Views;Complete, 4 views or more;70200
-PELVIS - FEMALE;US Pelvic Non OB w Trans Vag;Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856, if with transvag add 76830
-PELVIS - FEMALE;US Pelvic Non OB;FOR PATIENTS DECLINING TRANSVAGINAL EXAM - Ovarian Cyst, Fibroid Uterus, Pelvic Bleeding, Pre or Postmenopausal, Pelvic Mass, Adnexal Mass, Ovarian Torsion;76856
+PELVIS - FEMALE (INCLUDES TRANSVAGINAL / PREFERRED EXAM TO FULLY EVALUATE THE PELVIS);US Pelvic Non OB w Trans Vag;Pelvic pain, mass, dyspareunia, endocrine issues (e.g., PCOS), dysmenorrhea, amenorrhea, AUB, post-menopausal bleeding, delayed menses, infertility, signs of infection, follow-up of prior abnormality (e.g. ovarian / ovary cyst) , IUD localization, malignancy surveillance in high-risk patients, incontinence or prolapse, guidance for procedures, and pre/post-operative evaluation. Patients without contraindication to transvaginal imaging;76856<br>76830
+PELVIS - FEMALE (DOES NOT INCLUDE TRANSVAGINAL);US Pelvic Non OB;For with patients with contraindication for Transvaginal Exam: Pelvic pain, mass, dyspareunia, endocrine issues (e.g., PCOS), dysmenorrhea, amenorrhea, AUB, post-menopausal bleeding, delayed menses, infertility, signs of infection, follow-up of prior abnormality (e.g. ovarian / ovary cyst) , IUD localization, malignancy surveillance in high-risk patients, incontinence or prolapse, guidance for procedures, and pre/post-operative evaluation.;76856
 PELVIS - MALE;US Pelvic Non OB;Pelvic Pain, Urinary Bladder, Prostate (Transabdominal approach), Seminal Vesicles, Pelvic Pathology;76856
 PELVIS, CYSTOGRAM;CT Pelvis wo IV Con;Cystographic Contrast Only, Bladder Rupture, Bladder Repair, Bladder Fistula;72192
 PELVIS, CYSTOGRAM;CT Pelvis wo+w IV Con;Cystographic Contrast Only, Bladder Rupture, Bladder Repair, Bladder Fistula, Bladder Mass, Bladder Cancer;72194
