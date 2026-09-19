@@ -42,8 +42,8 @@
 	<div id="protocolDIV">
 		<table id="main">
 			<tr>
-				<th colspan="7">
-					<input class="search" placeholder="Search" aria-label="inputSearch" autofocus/> 
+				<th colspan="4">
+					<input class="search" type="search" placeholder="Search" aria-label="inputSearch" autofocus/> 
 				</th>
 			</tr>
 
@@ -66,11 +66,20 @@
 				</tr>
 
 			</tbody>
+
+			<tbody class="no-result" style="display:none; padding: 20px; font-weight:bold; color: #555;">
+				<tr>
+					<td colspan="4">
+						No matching results.
+					</td>
+				</tr>
+			</tbody>
+
 		</table>
 
-		<p class="no-result" style="display:none; padding: 20px; font-weight:bold; color: #555;">
+		<!-- <p class="no-result" style="display:none; padding: 20px; font-weight:bold; color: #555;">
 			No matching results.
-		</p>
+		</p> -->
 	</div>
 
 	<script type="text/javascript" src="list.min.js"></script>	<!-- https://listjs.com/ . Note: v2.3.1 does NOT work out of the box -->

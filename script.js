@@ -17,7 +17,7 @@ protocolList.on('updated', function (list) {
     if (noResultElem) {
         // Show message only if search is active and 0 items matched
         if (list.searched && list.matchingItems.length === 0) {
-            noResultElem.style.display = 'block';
+            noResultElem.style.display = 'table-row-group';
         } else {
             noResultElem.style.display = 'none';
         }
