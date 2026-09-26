@@ -107,28 +107,15 @@ tbody tr:hover {
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
 }
 
-.normalText {
-	font-size: medium;
-	font-style: normal;
-	font-weight: normal;
-}
-
-/* ==========================================
-	6. SEARCH RESULT COLOR-CODING
-   ========================================== */
-
-/* Matched text highlight (wrap matches in <mark class="highlight">) */
+/* Dynamic search term highlight */
 mark.highlight {
 	background-color: #ffe066;
 	color: #000000;
 	border-radius: 3px;
 }
 
-/* Highlight the whole row containing active matches */
-tbody tr.search-match {
-	background-color: #fff9db;
-}
-
-tbody tr.search-match:hover {
-	background-color: #fff3bf;
+.normalText {
+	font-size: medium;
+	font-style: normal;
+	font-weight: normal;
 }
