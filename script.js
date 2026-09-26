@@ -1,86 +1,96 @@
-// --- 1. Initialize List.js
-const options ={
-	valueNames: [
-		'bodyregionTD',
-		'procedureTD',
-		'reasonTD',
-		'CPTTD'
-	],
-	page: [2000]
+// --- 1. List.js Setup ---
+const options = {
+    valueNames: [
+        'bodyregionTD',
+        'procedureTD',
+        'reasonTD',
+        'CPTTD'
+    ],
+    page: 2000
 };
 
 const protocolList = new List('protocolDIV', options);
 
-// --- Handle "No results found" message ---
-protocolList.on('updated', function (list) {
+// Toggle "No results found" banner
+protocolList.on('updated', (list) => {
     const noResultElem = document.querySelector('.no-result');
-    if (noResultElem) {
-        // Show message only if search is active and 0 items matched
-        if (list.searched && list.matchingItems.length === 0) {
-            noResultElem.style.display = 'table-row-group';
-        } else {
-            noResultElem.style.display = 'none';
-        }
-    }
+    if (!noResultElem) return;
+
+    const hasNoMatches = list.searched && list.matchingItems.length === 0;
+    noResultElem.style.display = hasNoMatches ? 'table-row-group' : 'none';
 });
 
-// --- 2. Main logic wrapped in a modern async function ---
+// Search match highlighter
+protocolList.on('searchComplete', (list) => {
+    const searchInput = document.querySelector('#protocolDIV .search');
+    const query = searchInput ? searchInput.value.trim() : '';
+
+    // Reset previous highlights to clean text
+    document.querySelectorAll('#protocolDIV table tbody td').forEach((cell) => {
+        if (cell.dataset.originalText) {
+            cell.textContent = cell.dataset.originalText;
+            delete cell.dataset.originalText;
+        }
+    });
+
+    if (!query) return;
+
+    const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escapedQuery})`, 'gi');
+
+    list.matchingItems.forEach((item) => {
+        const targetCells = item.elm.querySelectorAll('.bodyregionTD, .procedureTD, .reasonTD');
+        
+        targetCells.forEach((cell) => {
+            const rawText = cell.textContent;
+            if (regex.test(rawText)) {
+                cell.dataset.originalText = rawText;
+                cell.innerHTML = rawText.replace(regex, '<mark class="highlight">$1</mark>');
+            }
+        });
+    });
+});
+
+// --- 2. Helper Functions ---
+const CSVtoArray = (data, delimiter = ';', omitFirstRow = false) =>
+    data
+        .slice(omitFirstRow ? data.indexOf('\n') + 1 : 0)
+        .split('\n')
+        .map((v) => v.split(delimiter));
+
+function addProtocolsToList(data) {
+    const itemsToAdd = data.map((row) => ({
+        bodyregionTD: row[0],
+        procedureTD:  row[1],
+        reasonTD:     row[2],
+        CPTTD:        row[3]
+    }));
+
+    protocolList.add(itemsToAdd);
+}
+
+// --- 3. Main Data Fetch ---
 async function loadProtocols() {
     try {
-        // Use the modern `fetch` to get the file.
         const response = await fetch('DHAI_Referral_Guide.csv');
-
-        // Check if the file was found and the request was successful.
         if (!response.ok) {
             throw new Error(`Failed to fetch CSV. Status: ${response.status}`);
         }
 
         const rawCSVText = await response.text();
-        
-        // Parse the CSV, explicitly using a comma ',' as the delimiter.
-        let csvData = CSVtoArray(rawCSVText);
+        const csvData = CSVtoArray(rawCSVText);
 
-        // Remove the first two rows (headers).
+        // Remove the first two rows (headers)
         csvData.splice(0, 2);
 
-        // Add the parsed data to the list using the fast, bulk method.
         addProtocolsToList(csvData);
 
-        // Remove the placeholder "Loading..." entry.
+        // Remove the placeholder "Loading..." entry
         protocolList.remove('bodyregionTD', '');
-
     } catch (error) {
-        // If anything fails (e.g., file not found), log the error.
-        console.error("Error loading protocol list:", error);
-        // You could also display a user-friendly error message on the page.
+        console.error('Error loading protocol list:', error);
     }
 }
 
-// --- 3. Helper functions
-// Convert the XML responseText (raw data of CSV file) into an array
-const CSVtoArray = (data, delimiter = ';', omitFirstRow = false) =>
-	data
-		.slice(omitFirstRow ? data.indexOf('\n') + 1 : 0)
-		.split('\n')
-		.map(v => v.split(delimiter));
-
-// Add CSV Data to the table
-function addProtocolsToList(data) {
-	// 2025-08-16 - Gemini Refactored to improve performance by reducing the number of calls to protocolList.add().
-	// 1. First, transform the entire 2D array into an array of objects.
-	//    The Array.map() method is ideal for this kind of data transformation.
-	const itemsToAdd = data.map(row => {
-		return {
-			bodyregionTD: row[0],
-			procedureTD:  row[1],
-			reasonTD:     row[2],
-			CPTTD:        row[3]
-		};
-	});
-
-	// 2. Now, call .add() only ONCE with the complete array of new items.
-    protocolList.add(itemsToAdd);
-}
-
-// --- 4. Run the main function ---
+// --- 4. Initialize ---
 loadProtocols();
