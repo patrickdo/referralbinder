@@ -10,7 +10,7 @@
 
 :root {
 	--DignityOrange: rgb(247, 121, 0); /* Dignity Orange */
-	--DignityFontFamily: "trade-gothic-next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	--DignityFontFamily: "trade-gothic-next", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* ==========================================
@@ -20,12 +20,21 @@
 body {
 	font-family: var(--DignityFontFamily);
 	font-weight: 500;
+	/* line-height: 1.5; */
 }
 
 .normalText {
 	font-size: medium;
 	font-style: normal;
 	font-weight: normal;
+}
+
+.referral-notice {
+	font-style: italic;
+	font-size: small;
+}
+.referral-notice p {
+	margin: 0 0 8px 0;
 }
 
 /* ==========================================
@@ -51,13 +60,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
-	padding: 4px 10px;
+	padding: 6px 10px;
 	margin: 6px 0;
 	background-color: #f3f4f6;
 	border: 1px solid #e5e7eb;
 	border-radius: 4px;
 	font-size: 12px;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .resource-row {
@@ -88,14 +97,13 @@ body {
 	border: 1px solid #d1d5db;
 	border-radius: 3px;
 	font-weight: 500;
-	transition: background-color 0.15s, border-color 0.15s;
+	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
 }
 
 .chip:hover {
 	background-color: #e5e7eb;
 	border-color: #9ca3af;
-	translate: 0 -1px;
-
+	transform: translateY(-1px);
 }
 
 .chip-pdf {
@@ -109,8 +117,7 @@ body {
 .search {
 	width: 100%;
 	max-width: 380px;
-	height: 30px;
-	line-height: 30px;
+	height: 32px;
 	padding: 4px 10px 4px 28px;
 	font-size: 14px;
 	font-family: inherit;
@@ -130,6 +137,7 @@ mark.highlight {
 	background-color: #ffe066;
 	color: #000000;
 	border-radius: 3px;
+	padding: 0 2px;
 }
 
 /* ==========================================
@@ -149,16 +157,17 @@ th {
 	background-color: var(--DignityOrange);
 	color: #FFF;
 	font-weight: bold;
-	padding: 4px;
+	padding: 6px 8px;
 	text-transform: uppercase;
 	text-align: left;
 	vertical-align: middle;
 }
 
 td {
-	padding: 10px;
+	padding: 8px 10px;
 	border: 1px solid #CCC;
-	vertical-align: middle;
+	vertical-align: top;
+	word-break: break-word;
 }
 
 tbody tr:hover {

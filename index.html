@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Cache-control" content="max-age=600">
 	<title>DHAI Referral Guide</title>
-	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	<link rel="shortcut icon" type="image/png" href="Resources/hashtag_icon.png">
 	<link rel="icon" type="image/png" href="Resources/hashtag_icon.png">
 </head>
@@ -12,56 +15,56 @@
 	<div class="page-title">
 		DHAI Referral Guide
 		<span class="updated-date">
-			Updated: 9/25/2026 <!-- UPDATED DATE -->
-			<div class="resource-bar-compact">
-				<div class="resource-row">
+			Updated: 9/28/2026 <!-- UPDATED DATE -->
+			<span class="resource-bar-compact">
+				<span class="resource-row">
 					<span class="bar-label">Resources:</span>
 					<a href="https://docs.google.com/document/d/1i_0-FZIUv7DNSZwzYlsgWYc8eWzEfeMvq_au46YlKF4/export?format=pdf&attachment=false"
-						target="_blank" class="chip chip-pdf">CT Quick Guide</a>
+						target="_blank" rel="noopener noreferrer" class="chip chip-pdf">CT Quick Guide</a>
 					<a href="https://docs.google.com/document/d/1ciYL6SU2VhLvDU-S_66fWYijj6Jvxi4j9dnDx-lcmBA/export?format=pdf&attachment=false"
-						target="_blank" class="chip chip-pdf">MR Quick Guide</a>
-				</div>
-				<div class="resource-row">
+						target="_blank" rel="noopener noreferrer" class="chip chip-pdf">MR Quick Guide</a>
+				</span>
+				<span class="resource-row">
 					<span class="bar-label">Protocols:</span>
 					<a href="https://patrickdo.github.io/xrayprotocols/" class="chip">X-ray</a>
 					<a href="https://patrickdo.github.io/usprotocols/" class="chip">US</a>
 					<a href="https://apps.mrgschedule.com/ctprotocols/" class="chip">CT/MRI</a>
-				</div>
-			</div>
+				</span>
+			</span>
 		</span>
 	</div>
 
-
-<p style="font-style: italic; font-size: small;">
-		This guide is intended for ambulatory radiology referral use only and does not include exams performed at our affiliated Mercy Hospitals.
-		<br><br>
-		<b>Pre-MRI lab assessment of eGFR is only required within 6 weeks of the MRI for patients with the following conditions:</b>
-		<ul style="font-style: italic; font-size: small;">	
+	<div class="referral-notice">
+		<p>This guide is intended for ambulatory radiology referral use only and does not include exams performed at our affiliated Mercy Hospitals.</p>
+		<p><strong>Pre-MRI lab assessment of eGFR is only required within 6 weeks of the MRI for patients with the following conditions:</strong></p>
+		<ul>
 			<li>History of 'kidney disease' (including renal tumor or transplant) as an adult 18 years and older.</li>
 			<li>Solid organ transplant (excluding renal transplant, which is covered above).</li>
 			<li>History of severe hepatic disease, liver transplant, or pending liver transplant.</li>
 		</ul>
-	</p>
+	</div>
+
 	<p>Start typing in the search box to narrow down the list.</p>
 
 	<div id="protocolDIV">
 		<table id="main">
-			<tr>
-				<th colspan="4">
-					<input class="search" type="search" placeholder="Search" aria-label="inputSearch" autofocus/> 
-				</th>
-			</tr>
+			<thead>
+				<tr>
+					<th colspan="4">
+						<input class="search" type="search" placeholder="Search" aria-label="Search referral guide" autofocus/> 
+					</th>
+				</tr>
 
-			<tr style="position: sticky; top: 0; background-color: #fff; z-index: 1;">
-				<th class="bodyregionCol">Body Region</th>
-				<th class="procedureCol">Procedure (Order As)</th>
-				<th class="reasonCol">Reason For Exam</th>
-				<th class="CPTCol">CPT Code</th>
-			</tr>
+				<tr style="position: sticky; top: 0; background-color: #fff; z-index: 1;">
+					<th class="bodyregionCol">Body Region</th>
+					<th class="procedureCol">Procedure (Order As)</th>
+					<th class="reasonCol">Reason For Exam</th>
+					<th class="CPTCol">CPT Code</th>
+				</tr>
+			</thead>
 
 			<tbody class="list">
-			<!-- not compatible with td colspan -->
-
+				<!-- not compatible with td colspan -->
 				<!-- template entry that then gets removed -->
 				<tr id="protocolItem">
 					<td class="bodyregionTD"></td>
@@ -69,22 +72,16 @@
 					<td class="reasonTD">Loading...</td>
 					<td class="CPTTD"></td>
 				</tr>
-
 			</tbody>
 
-			<tbody class="no-result" style="display:none; padding: 20px; font-weight:bold; color: #555;">
+			<tbody class="no-result" style="display:none;">
 				<tr>
-					<td colspan="4">
+					<td colspan="4" style="padding: 20px; font-weight:bold; color: #555;">
 						No matching results.
 					</td>
 				</tr>
 			</tbody>
-
 		</table>
-
-		<!-- <p class="no-result" style="display:none; padding: 20px; font-weight:bold; color: #555;">
-			No matching results.
-		</p> -->
 	</div>
 
 	<script type="text/javascript" src="list.min.js"></script>	<!-- https://listjs.com/ . Note: v2.3.1 does NOT work out of the box -->
