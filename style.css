@@ -40,6 +40,26 @@ body {
 	padding: 6px 8px;
 	background-color: #fff1e3;
 	color: #8a4300;
+	cursor: pointer;
+	transition: background-color 0.15s ease;
+}
+.referral-notice summary::after {
+	content: "+";
+	float: right;
+	margin-left: 12px;
+	font-style: normal;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.referral-notice details[open] summary::after {
+	content: "−";
+}
+.referral-notice summary:hover {
+	background-color: #ffe2c2;
+}
+.referral-notice summary:focus-visible {
+	outline: 2px solid #8a4300;
+	outline-offset: 2px;
 }
 
 /* ==========================================
