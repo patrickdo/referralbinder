@@ -17,6 +17,11 @@
 	2. BASE & TYPOGRAPHY
    ========================================== */
 
+/* Enable keyword interpolation for smooth details height animation */
+:root {
+	interpolate-size: allow-keywords;
+}
+
 body {
 	font-family: var(--DignityFontFamily);
 	font-weight: 500;
@@ -30,38 +35,98 @@ body {
 }
 
 .referral-notice {
-	font-style: italic;
-	font-size: small;
+	font-size: 13px;
+	margin: 8px 0 12px 0;
 }
+
 .referral-notice p {
+	font-style: italic;
+	color: #574b45;
 	margin: 0 0 8px 0;
 }
-.referral-notice summary {
-	padding: 6px 8px;
-	background-color: #fff1e3;
-	color: #8a4300;
-	cursor: pointer;
-	transition: background-color 0.15s ease;
+
+/* Warm Sandstone & Terracotta Container */
+.referral-notice details {
+	background-color: #faf6f3; /* Neutral warm linen/sandstone */
+	border: 1px solid #eadecd;
+	border-left: 4px solid #c26122; /* Desaturated terracotta / rust accent */
+	border-radius: 4px;
+	margin-bottom: 6px;
+	transition:
+		background-color 0.15s ease,
+		border-color 0.15s ease;
+	overflow: hidden;
 }
+
+.referral-notice details:hover {
+	background-color: #f5eee8;
+	border-color: #dfcfbc;
+}
+
+.referral-notice summary {
+	padding: 8px 12px;
+	background: transparent;
+	color: #2c1f18; /* Deep warm charcoal */
+	font-style: normal;
+	font-weight: 600;
+	cursor: pointer;
+	user-select: none;
+	list-style: none; /* Hide default browser marker */
+}
+
+/* Custom expand/collapse toggle */
 .referral-notice summary::after {
 	content: "+";
 	float: right;
 	margin-left: 12px;
 	font-style: normal;
 	font-weight: bold;
+	color: #c26122;
 	white-space: nowrap;
 }
+
 .referral-notice details[open] summary::after {
 	content: "−";
 }
-.referral-notice summary:hover {
-	background-color: #ffe2c2;
+
+.referral-notice summary::-webkit-details-marker {
+	display: none;
 }
+
 .referral-notice summary:focus-visible {
-	outline: 2px solid #8a4300;
+	outline: 2px solid #c26122;
 	outline-offset: 2px;
 }
 
+/* Native CSS Accordion Expand/Collapse Animation */
+.referral-notice details::details-content {
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	transition:
+		height 0.25s ease,
+		opacity 0.2s ease,
+		content-visibility 0.25s allow-discrete;
+}
+
+.referral-notice details[open]::details-content {
+	height: auto;
+	opacity: 1;
+}
+
+/* Expanded list content styling */
+.referral-notice details ul {
+	margin: 0;
+	padding: 4px 16px 10px 32px;
+	color: #3d2b22;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.referral-notice details li {
+	margin-bottom: 4px;
+}
 /* ==========================================
 	3. PAGE HEADER & METADATA
    ========================================== */
