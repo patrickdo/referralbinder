@@ -189,7 +189,7 @@ PET, PSMA;PET/CT Skull to Mid Thigh F-18 PSMA<br>Pylarify A9595x9;Prostate Cance
 PET, SKULL TO MID THIGH;PET/CT Tumor Skull Mid-Thigh Initial<br>PET/CT Tumor Skull - Mid Thigh Subsequent<br>FDG Dose A9552;Malignancy vs Benign Malignancy Staging/Restaging, Differentiating Recurrent or Residual Disease from Therapy Induced Changes, Monitoring the Response to Therapy;78815
 PET, WHOLE BODY;PET/CT Whole Body Initial<br>PET/CT Whole Body Subsequent<br>FDG Dose A9552;Melanoma Sarcoma, Multiple Myeloma, Merkel Cell Carcinoma, Osteosarcoma;78816
 RENAL ARTERIES;US Vasc Dplx Ab/Pel/Ret Comp;Renovascular Hypertension, Renal Artery Stenosis, Severe Hypertension;93975
-RETROPERITONEUM KIDNEYS, BLADDER, AORTA, SVC, IVC, NODES;US Retroperitoneal Complete;Renal Mass, UTI, Renal Insufficiency or Failure, Renal Colic or Flank Pain, Bladder Mass, Hematuria, Cystitis, Kidneys and Bladder;76770
+RETROPERITONEUM KIDNEYS, BLADDER, AORTA, IVC, NODES;US Retroperitoneal Complete;Renal Mass, UTI, Renal Insufficiency or Failure, Renal Colic or Flank Pain, Bladder Mass, Hematuria, Cystitis, Kidneys and Bladder;76770
 RIBS;XR Ribs 2 Views Lt<br>XR Ribs 2 Views Rt;Unilateral, 2 views;71100
 RIBS;XR Ribs 3 Views Bil;Bilateral, 3 views;71110
 RIBS;XR Ribs w PA Chest 3+ Views Lt<br>XR Ribs w PA Chest 3+ Views Rt;Unilateral, 2 views including PA Chest;71101

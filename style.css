@@ -36,6 +36,11 @@ body {
 .referral-notice p {
 	margin: 0 0 8px 0;
 }
+.referral-notice summary {
+	padding: 6px 8px;
+	background-color: #fff1e3;
+	color: #8a4300;
+}
 
 /* ==========================================
 	3. PAGE HEADER & METADATA
@@ -97,7 +102,10 @@ body {
 	border: 1px solid #d1d5db;
 	border-radius: 3px;
 	font-weight: 500;
-	transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+	transition:
+		background-color 0.15s ease,
+		border-color 0.15s ease,
+		transform 0.15s ease;
 }
 
 .chip:hover {
@@ -121,10 +129,10 @@ body {
 	padding: 4px 10px 4px 28px;
 	font-size: 14px;
 	font-family: inherit;
-	border: 1px solid #CCC;
+	border: 1px solid #ccc;
 	border-radius: 3px;
 	box-sizing: border-box;
-	background: #ffffff url('Resources/magnifying-glass-128.png') no-repeat 6px center / 14px 14px;
+	background: #ffffff url("Resources/magnifying-glass-128.png") no-repeat 6px center / 14px 14px;
 }
 
 .search:focus {
@@ -145,7 +153,7 @@ mark.highlight {
    ========================================== */
 
 table {
-	border: 1px solid #CCC;
+	border: 1px solid #ccc;
 	font-size: medium;
 	border-collapse: collapse;
 	background-color: rgb(217, 217, 217);
@@ -155,7 +163,7 @@ table {
 
 th {
 	background-color: var(--DignityOrange);
-	color: #FFF;
+	color: #fff;
 	font-weight: bold;
 	padding: 6px 8px;
 	text-transform: uppercase;
@@ -165,7 +173,7 @@ th {
 
 td {
 	padding: 8px 10px;
-	border: 1px solid #CCC;
+	border: 1px solid #ccc;
 	vertical-align: top;
 	word-break: break-word;
 }
