@@ -49,6 +49,7 @@ body {
 .page-title {
 	font-size: xx-large;
 	font-weight: bold;
+	display: flow-root;
 }
 
 .updated-date {
