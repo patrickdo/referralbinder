@@ -11,16 +11,12 @@
 :root {
 	--DignityOrange: rgb(247, 121, 0); /* Dignity Orange */
 	--DignityFontFamily: "trade-gothic-next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	interpolate-size: allow-keywords; /* Enable keyword interpolation for smooth details height animation */
 }
 
 /* ==========================================
 	2. BASE & TYPOGRAPHY
    ========================================== */
-
-/* Enable keyword interpolation for smooth details height animation */
-:root {
-	interpolate-size: allow-keywords;
-}
 
 body {
 	font-family: var(--DignityFontFamily);
@@ -47,20 +43,37 @@ body {
 
 /* Warm Sandstone & Terracotta Container */
 .referral-notice details {
-	background-color: #faf6f3; /* Neutral warm linen/sandstone */
+	background-color: #faf6f3; /* Neutral warm linen/sandstone resting */
 	border: 1px solid #eadecd;
-	border-left: 4px solid #c26122; /* Desaturated terracotta / rust accent */
+	border-left: 4px solid #dfcfbc; /* Soft sandstone resting accent */
 	border-radius: 4px;
 	margin-bottom: 6px;
 	transition:
-		background-color 0.15s ease,
-		border-color 0.15s ease;
+		background-color 0.2s ease,
+		border-color 0.2s ease;
 	overflow: hidden;
 }
 
+/* Hover state on closed card */
 .referral-notice details:hover {
 	background-color: #f5eee8;
-	border-color: #dfcfbc;
+	border-top-color: #dfcfbc;
+	border-right-color: #dfcfbc;
+	border-bottom-color: #dfcfbc;
+	border-left-color: #c26122; /* Terracotta highlight on hover */
+}
+
+/* Retain terracotta left accent + subtle background tint while OPEN */
+.referral-notice details[open] {
+	background-color: #f6eee7; /* Subtle warm tinted linen */
+	border-top-color: #dfcfbc;
+	border-right-color: #dfcfbc;
+	border-bottom-color: #dfcfbc;
+	border-left-color: #c26122; /* Locked terracotta accent */
+}
+
+.referral-notice details[open]:hover {
+	background-color: #f2e7de; /* Slightly deeper warm tint on hover when open */
 }
 
 .referral-notice summary {
@@ -72,6 +85,12 @@ body {
 	cursor: pointer;
 	user-select: none;
 	list-style: none; /* Hide default browser marker */
+	transition: color 0.15s ease;
+}
+
+/* Deepen header contrast when open */
+.referral-notice details[open] summary {
+	color: #1f140e;
 }
 
 /* Custom expand/collapse toggle */
@@ -180,7 +199,9 @@ body {
 }
 
 .chip {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
 	padding: 3px 8px;
 	background-color: #ffffff;
 	color: #1f2937;
@@ -201,7 +222,14 @@ body {
 }
 
 .chip-pdf {
-	border-left: 2.5px solid #dc2626; /* Subtle red tag indicating PDF */
+	border-left: 1px solid #d1d5db;
+}
+
+.chip-icon {
+	width: 13px;
+	height: 13px;
+	flex-shrink: 0;
+	vertical-align: middle;
 }
 
 /* ==========================================
@@ -259,29 +287,3 @@ th {
 
 td {
 	padding: 8px 10px;
-	border: 1px solid #ccc;
-	vertical-align: top;
-	word-break: break-word;
-}
-
-tbody tr:hover {
-	background: rgb(191, 191, 191);
-}
-
-/* ==========================================
-	7. TABLE COLUMN WIDTHS
-   ========================================== */
-
-.procedureCol {
-	width: 25%;
-}
-
-.reasonCol {
-	width: 65%;
-}
-
-.CPTCol {
-	width: 10%;
-	text-align: center;
-	white-space: nowrap;
-}
